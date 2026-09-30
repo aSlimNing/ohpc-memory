@@ -1,0 +1,24 @@
+{
+  "name": "wasm-rollup-lab",
+  "private": true,
+  "version": "1.0.0",
+  "description": "HarmonyOS PC: Rollup WASM (@rollup/wasm-node) end-to-end build verification with a real React TSX app",
+  "type": "module",
+  "scripts": {
+    "build": "node node_modules/rollup/dist/bin/rollup -c"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28",
+    "@rollup/plugin-node-resolve": "^16",
+    "@rollup/plugin-typescript": "^12",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "rollup": "npm:@rollup/wasm-node@^4",
+    "tslib": "^2.8.1",
+    "typescript": "^5.6.3"
+  }
+}

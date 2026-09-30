@@ -1,0 +1,59 @@
+########## 复验开始 2026-09-29 08:49:06 ##########
+
+===== S1 鸿蒙 HAP 编译 + 签名 =====
+rebuild 0928
+> hvigor [91mERROR: BUILD FAILED in 26 s 443 ms [39m
+
+28 tasks in total: 11 executed, 17 up-to-date
+09-29 08:49:37.978 INFO  - sign-app success
+09-29 08:49:38.030 INFO  - hap verify successed!
+09-29 08:49:38.030 INFO  - verify-app success
+  HAP 产物: 102450 bytes 2026-09-29 08:49 /data/storage/el2/base/files/home/Documents/Qoder/2026-09-24/67d34c20/HelloHos/entry/build/default/outputs/default/entry-default-signed.hap
+
+===== S2 鸿蒙运行调试 =====
+[Empty]
+  （预期 [Empty]：无部署通道，已知缺陷项）
+
+===== S3 Java 后端（HarmonyBrew JDK+Maven） =====
+  jar: 3618 bytes
+created ORD-1, total=1
+
+===== S4 前端 SPA（Vite 原生 esbuild 路径） =====
+dist/assets/index-msfP2zO7.js    67.95 kB │ gzip: 27.15 kB │ map: 321.48 kB
+dist/assets/react-Bi6CKZ9p.js   164.48 kB │ gzip: 53.82 kB │ map: 705.71 kB
+✓ built in 6.32s
+dist/assets/index-msfP2zO7.js
+dist/assets/react-Bi6CKZ9p.js
+dist/index.html
+  preview HTTP 200 (index.html)
+  preview HTTP 200 (asset js)
+Terminated                 nohup python3 -m http.server 8941 > /dev/null 2>&1
+
+===== S5 免构建静态站点 + 本地预览 =====
+static ok
+  命中 static ok
+
+===== S6 Node.js HTTP API =====
+{"ok":true,"path":"/api/q"}
+Terminated                 nohup node server.mjs > /dev/null 2>&1
+
+===== S7 Python Web + pip 依赖 =====
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import flask; print('  flask', flask.__version__)
+    ^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'flask'
+
+
+===== S8 C/C++ 原生编译 =====
+native ok
+  退出码: 0
+
+===== 数据层: Redis + SQLite =====
+  redis get: v1
+  sqlite rows: 1
+
+===== Git 贯穿验证 =====
+  HEAD: ea157bf reverify: Top8 all-scenario re-run 2026-09-29 08:50:09
+
+########## 复验结束 2026-09-29 08:50:16 ##########

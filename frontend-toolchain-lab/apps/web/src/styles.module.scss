@@ -1,0 +1,26 @@
+@use "sass:color";
+
+.moduleCard {
+  $accent: #4f6df5;
+
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  background: #fff;
+  box-shadow: 0 1px 6px rgb(23 32 76 / 8%);
+  border-left: 4px solid $accent;
+
+  h3 {
+    margin: 0 0 0.5rem;
+    color: color.adjust($accent, $lightness: -15%);
+    font-size: 1rem;
+  }
+
+  .meta {
+    font-size: 0.8rem;
+    color: #6b7280;
+  }
+
+  @media (max-width: 640px) {
+    padding: 0.75rem;
+  }
+}

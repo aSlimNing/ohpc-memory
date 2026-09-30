@@ -1,0 +1,9 @@
+$primary: #4f6df5;
+
+.app {
+  color: $primary;
+
+  .nested {
+    margin: 0;
+  }
+}

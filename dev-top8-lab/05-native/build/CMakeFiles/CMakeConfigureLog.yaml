@@ -1,0 +1,2005 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/storage/Users/currentUser/.harmonybrew/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/"
+      - "/data/app/bin/"
+      - "/data/storage/el1/bundle/libs/arm64/"
+      - "/data/service/hnp/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    searched_directories:
+      - "/storage/Users/currentUser/.harmonybrew/bin/uname"
+      - "/data/storage/el2/base/files/home/.qoder/bin/uname"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/uname"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/uname"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/uname"
+      - "/data/app/bin/uname"
+      - "/data/storage/el1/bundle/libs/arm64/uname"
+      - "/data/service/hnp/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: HarmonyOS - HongMeng Kernel 1.13.0 - unknown
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/storage/Users/currentUser/.harmonybrew/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/"
+      - "/data/app/bin/"
+      - "/data/storage/el1/bundle/libs/arm64/"
+      - "/data/service/hnp/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    searched_directories:
+      - "/storage/Users/currentUser/.harmonybrew/bin/ninja-build"
+      - "/storage/Users/currentUser/.harmonybrew/bin/ninja"
+      - "/storage/Users/currentUser/.harmonybrew/bin/samu"
+      - "/data/storage/el2/base/files/home/.qoder/bin/ninja-build"
+      - "/data/storage/el2/base/files/home/.qoder/bin/ninja"
+      - "/data/storage/el2/base/files/home/.qoder/bin/samu"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/ninja-build"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/ninja"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/samu"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/ninja-build"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/ninja"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/samu"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/ninja-build"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/ninja"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/samu"
+      - "/data/app/bin/ninja-build"
+      - "/data/app/bin/ninja"
+      - "/data/app/bin/samu"
+      - "/data/storage/el1/bundle/libs/arm64/ninja-build"
+      - "/data/storage/el1/bundle/libs/arm64/ninja"
+      - "/data/storage/el1/bundle/libs/arm64/samu"
+      - "/data/service/hnp/bin/ninja-build"
+    found: "/data/service/hnp/bin/ninja"
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "/storage/Users/currentUser/.harmonybrew/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/"
+      - "/data/app/bin/"
+      - "/data/storage/el1/bundle/libs/arm64/"
+      - "/data/service/hnp/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    searched_directories:
+      - "/storage/Users/currentUser/.harmonybrew/bin/cc"
+      - "/data/storage/el2/base/files/home/.qoder/bin/cc"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/cc"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/cc"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/cc"
+      - "/data/app/bin/cc"
+      - "/data/storage/el1/bundle/libs/arm64/cc"
+      - "/data/service/hnp/bin/cc"
+      - "/usr/local/bin/cc"
+      - "/bin/cc"
+      - "/usr/bin/cc"
+      - "/system/bin/cc"
+      - "/vendor/bin/cc"
+      - "/storage/Users/currentUser/.harmonybrew/bin/gcc"
+      - "/data/storage/el2/base/files/home/.qoder/bin/gcc"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/gcc"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/gcc"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/gcc"
+      - "/data/app/bin/gcc"
+      - "/data/storage/el1/bundle/libs/arm64/gcc"
+      - "/data/service/hnp/bin/gcc"
+      - "/usr/local/bin/gcc"
+      - "/bin/gcc"
+      - "/usr/bin/gcc"
+      - "/system/bin/gcc"
+      - "/vendor/bin/gcc"
+      - "/storage/Users/currentUser/.harmonybrew/bin/cl"
+      - "/data/storage/el2/base/files/home/.qoder/bin/cl"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/cl"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/cl"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/cl"
+      - "/data/app/bin/cl"
+      - "/data/storage/el1/bundle/libs/arm64/cl"
+      - "/data/service/hnp/bin/cl"
+      - "/usr/local/bin/cl"
+      - "/bin/cl"
+      - "/usr/bin/cl"
+      - "/system/bin/cl"
+      - "/vendor/bin/cl"
+      - "/storage/Users/currentUser/.harmonybrew/bin/bcc"
+      - "/data/storage/el2/base/files/home/.qoder/bin/bcc"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/bcc"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/bcc"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/bcc"
+      - "/data/app/bin/bcc"
+      - "/data/storage/el1/bundle/libs/arm64/bcc"
+      - "/data/service/hnp/bin/bcc"
+      - "/usr/local/bin/bcc"
+      - "/bin/bcc"
+      - "/usr/bin/bcc"
+      - "/system/bin/bcc"
+      - "/vendor/bin/bcc"
+      - "/storage/Users/currentUser/.harmonybrew/bin/xlc"
+      - "/data/storage/el2/base/files/home/.qoder/bin/xlc"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/xlc"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/xlc"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/xlc"
+      - "/data/app/bin/xlc"
+      - "/data/storage/el1/bundle/libs/arm64/xlc"
+      - "/data/service/hnp/bin/xlc"
+      - "/usr/local/bin/xlc"
+      - "/bin/xlc"
+      - "/usr/bin/xlc"
+      - "/system/bin/xlc"
+      - "/vendor/bin/xlc"
+      - "/storage/Users/currentUser/.harmonybrew/bin/icx"
+      - "/data/storage/el2/base/files/home/.qoder/bin/icx"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/icx"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/icx"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/icx"
+      - "/data/app/bin/icx"
+      - "/data/storage/el1/bundle/libs/arm64/icx"
+      - "/data/service/hnp/bin/icx"
+      - "/usr/local/bin/icx"
+      - "/bin/icx"
+      - "/usr/bin/icx"
+      - "/system/bin/icx"
+      - "/vendor/bin/icx"
+      - "/storage/Users/currentUser/.harmonybrew/bin/clang"
+      - "/data/storage/el2/base/files/home/.qoder/bin/clang"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/clang"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/clang"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/clang"
+      - "/data/app/bin/clang"
+      - "/data/storage/el1/bundle/libs/arm64/clang"
+    found: "/data/service/hnp/bin/clang"
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/"
+    found: "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /data/service/hnp/bin/clang 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/4.1.2/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar"
+      - "ar"
+    candidate_directories:
+      - "/data/service/hnp/bin/"
+      - "/storage/Users/currentUser/.harmonybrew/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/"
+      - "/data/app/bin/"
+      - "/data/storage/el1/bundle/libs/arm64/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    found: "/data/service/hnp/bin/llvm-ar"
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/data/service/hnp/bin/"
+      - "/storage/Users/currentUser/.harmonybrew/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/"
+      - "/data/app/bin/"
+      - "/data/storage/el1/bundle/libs/arm64/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    found: "/data/service/hnp/bin/llvm-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-strip"
+      - "strip"
+    candidate_directories:
+      - "/data/service/hnp/bin/"
+      - "/storage/Users/currentUser/.harmonybrew/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/"
+      - "/data/app/bin/"
+      - "/data/storage/el1/bundle/libs/arm64/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    found: "/data/service/hnp/bin/llvm-strip"
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "/data/service/hnp/bin/"
+      - "/storage/Users/currentUser/.harmonybrew/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/"
+      - "/data/app/bin/"
+      - "/data/storage/el1/bundle/libs/arm64/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    found: "/data/service/hnp/bin/ld.lld"
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-nm"
+      - "nm"
+    candidate_directories:
+      - "/data/service/hnp/bin/"
+      - "/storage/Users/currentUser/.harmonybrew/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/"
+      - "/data/app/bin/"
+      - "/data/storage/el1/bundle/libs/arm64/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    found: "/data/service/hnp/bin/llvm-nm"
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/data/service/hnp/bin/"
+      - "/storage/Users/currentUser/.harmonybrew/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/"
+      - "/data/app/bin/"
+      - "/data/storage/el1/bundle/libs/arm64/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    found: "/data/service/hnp/bin/llvm-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/data/service/hnp/bin/"
+      - "/storage/Users/currentUser/.harmonybrew/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/"
+      - "/data/app/bin/"
+      - "/data/storage/el1/bundle/libs/arm64/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    found: "/data/service/hnp/bin/llvm-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/data/service/hnp/bin/"
+      - "/storage/Users/currentUser/.harmonybrew/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/"
+      - "/data/app/bin/"
+      - "/data/storage/el1/bundle/libs/arm64/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    found: "/data/service/hnp/bin/llvm-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/data/service/hnp/bin/"
+      - "/storage/Users/currentUser/.harmonybrew/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/"
+      - "/data/app/bin/"
+      - "/data/storage/el1/bundle/libs/arm64/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    searched_directories:
+      - "/data/service/hnp/bin/llvm-dlltool"
+      - "/storage/Users/currentUser/.harmonybrew/bin/llvm-dlltool"
+      - "/data/storage/el2/base/files/home/.qoder/bin/llvm-dlltool"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/llvm-dlltool"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/llvm-dlltool"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/llvm-dlltool"
+      - "/data/app/bin/llvm-dlltool"
+      - "/data/storage/el1/bundle/libs/arm64/llvm-dlltool"
+      - "/usr/local/bin/llvm-dlltool"
+      - "/bin/llvm-dlltool"
+      - "/usr/bin/llvm-dlltool"
+      - "/system/bin/llvm-dlltool"
+      - "/vendor/bin/llvm-dlltool"
+      - "/data/service/hnp/bin/dlltool"
+      - "/storage/Users/currentUser/.harmonybrew/bin/dlltool"
+      - "/data/storage/el2/base/files/home/.qoder/bin/dlltool"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/dlltool"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/dlltool"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/dlltool"
+      - "/data/app/bin/dlltool"
+      - "/data/storage/el1/bundle/libs/arm64/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/system/bin/dlltool"
+      - "/vendor/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/data/service/hnp/bin/"
+      - "/storage/Users/currentUser/.harmonybrew/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/"
+      - "/data/app/bin/"
+      - "/data/storage/el1/bundle/libs/arm64/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    found: "/data/service/hnp/bin/llvm-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/data/service/hnp/bin/"
+      - "/storage/Users/currentUser/.harmonybrew/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/"
+      - "/data/app/bin/"
+      - "/data/storage/el1/bundle/libs/arm64/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    searched_directories:
+      - "/data/service/hnp/bin/tapi"
+      - "/storage/Users/currentUser/.harmonybrew/bin/tapi"
+      - "/data/storage/el2/base/files/home/.qoder/bin/tapi"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/tapi"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/tapi"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/tapi"
+      - "/data/app/bin/tapi"
+      - "/data/storage/el1/bundle/libs/arm64/tapi"
+      - "/usr/local/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/system/bin/tapi"
+      - "/vendor/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-15.0"
+      - "llvm-ar-15"
+      - "llvm-ar15"
+      - "llvm-ar"
+    candidate_directories:
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/"
+      - "/data/service/hnp/bin/"
+      - "/storage/Users/currentUser/.harmonybrew/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/"
+      - "/data/app/bin/"
+      - "/data/storage/el1/bundle/libs/arm64/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    searched_directories:
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/llvm-ar-15.0"
+      - "/data/service/hnp/bin/llvm-ar-15.0"
+      - "/storage/Users/currentUser/.harmonybrew/bin/llvm-ar-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/bin/llvm-ar-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/llvm-ar-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/llvm-ar-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/llvm-ar-15.0"
+      - "/data/app/bin/llvm-ar-15.0"
+      - "/data/storage/el1/bundle/libs/arm64/llvm-ar-15.0"
+      - "/usr/local/bin/llvm-ar-15.0"
+      - "/bin/llvm-ar-15.0"
+      - "/usr/bin/llvm-ar-15.0"
+      - "/system/bin/llvm-ar-15.0"
+      - "/vendor/bin/llvm-ar-15.0"
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/llvm-ar-15"
+      - "/data/service/hnp/bin/llvm-ar-15"
+      - "/storage/Users/currentUser/.harmonybrew/bin/llvm-ar-15"
+      - "/data/storage/el2/base/files/home/.qoder/bin/llvm-ar-15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/llvm-ar-15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/llvm-ar-15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/llvm-ar-15"
+      - "/data/app/bin/llvm-ar-15"
+      - "/data/storage/el1/bundle/libs/arm64/llvm-ar-15"
+      - "/usr/local/bin/llvm-ar-15"
+      - "/bin/llvm-ar-15"
+      - "/usr/bin/llvm-ar-15"
+      - "/system/bin/llvm-ar-15"
+      - "/vendor/bin/llvm-ar-15"
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/llvm-ar15"
+      - "/data/service/hnp/bin/llvm-ar15"
+      - "/storage/Users/currentUser/.harmonybrew/bin/llvm-ar15"
+      - "/data/storage/el2/base/files/home/.qoder/bin/llvm-ar15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/llvm-ar15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/llvm-ar15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/llvm-ar15"
+      - "/data/app/bin/llvm-ar15"
+      - "/data/storage/el1/bundle/libs/arm64/llvm-ar15"
+      - "/usr/local/bin/llvm-ar15"
+      - "/bin/llvm-ar15"
+      - "/usr/bin/llvm-ar15"
+      - "/system/bin/llvm-ar15"
+      - "/vendor/bin/llvm-ar15"
+    found: "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/llvm-ar"
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-15.0"
+      - "llvm-ranlib-15"
+      - "llvm-ranlib15"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/"
+      - "/data/service/hnp/bin/"
+      - "/storage/Users/currentUser/.harmonybrew/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/"
+      - "/data/app/bin/"
+      - "/data/storage/el1/bundle/libs/arm64/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    searched_directories:
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/llvm-ranlib-15.0"
+      - "/data/service/hnp/bin/llvm-ranlib-15.0"
+      - "/storage/Users/currentUser/.harmonybrew/bin/llvm-ranlib-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/bin/llvm-ranlib-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/llvm-ranlib-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/llvm-ranlib-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/llvm-ranlib-15.0"
+      - "/data/app/bin/llvm-ranlib-15.0"
+      - "/data/storage/el1/bundle/libs/arm64/llvm-ranlib-15.0"
+      - "/usr/local/bin/llvm-ranlib-15.0"
+      - "/bin/llvm-ranlib-15.0"
+      - "/usr/bin/llvm-ranlib-15.0"
+      - "/system/bin/llvm-ranlib-15.0"
+      - "/vendor/bin/llvm-ranlib-15.0"
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/llvm-ranlib-15"
+      - "/data/service/hnp/bin/llvm-ranlib-15"
+      - "/storage/Users/currentUser/.harmonybrew/bin/llvm-ranlib-15"
+      - "/data/storage/el2/base/files/home/.qoder/bin/llvm-ranlib-15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/llvm-ranlib-15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/llvm-ranlib-15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/llvm-ranlib-15"
+      - "/data/app/bin/llvm-ranlib-15"
+      - "/data/storage/el1/bundle/libs/arm64/llvm-ranlib-15"
+      - "/usr/local/bin/llvm-ranlib-15"
+      - "/bin/llvm-ranlib-15"
+      - "/usr/bin/llvm-ranlib-15"
+      - "/system/bin/llvm-ranlib-15"
+      - "/vendor/bin/llvm-ranlib-15"
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/llvm-ranlib15"
+      - "/data/service/hnp/bin/llvm-ranlib15"
+      - "/storage/Users/currentUser/.harmonybrew/bin/llvm-ranlib15"
+      - "/data/storage/el2/base/files/home/.qoder/bin/llvm-ranlib15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/llvm-ranlib15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/llvm-ranlib15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/llvm-ranlib15"
+      - "/data/app/bin/llvm-ranlib15"
+      - "/data/storage/el1/bundle/libs/arm64/llvm-ranlib15"
+      - "/usr/local/bin/llvm-ranlib15"
+      - "/bin/llvm-ranlib15"
+      - "/usr/bin/llvm-ranlib15"
+      - "/system/bin/llvm-ranlib15"
+      - "/vendor/bin/llvm-ranlib15"
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/llvm-ranlib"
+    found: "/data/service/hnp/bin/llvm-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-15.0"
+      - "clang-scan-deps-15"
+      - "clang-scan-deps15"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/"
+      - "/data/service/hnp/bin/"
+      - "/storage/Users/currentUser/.harmonybrew/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/"
+      - "/data/app/bin/"
+      - "/data/storage/el1/bundle/libs/arm64/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    searched_directories:
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/clang-scan-deps-15.0"
+      - "/data/service/hnp/bin/clang-scan-deps-15.0"
+      - "/storage/Users/currentUser/.harmonybrew/bin/clang-scan-deps-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/bin/clang-scan-deps-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/clang-scan-deps-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/clang-scan-deps-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/clang-scan-deps-15.0"
+      - "/data/app/bin/clang-scan-deps-15.0"
+      - "/data/storage/el1/bundle/libs/arm64/clang-scan-deps-15.0"
+      - "/usr/local/bin/clang-scan-deps-15.0"
+      - "/bin/clang-scan-deps-15.0"
+      - "/usr/bin/clang-scan-deps-15.0"
+      - "/system/bin/clang-scan-deps-15.0"
+      - "/vendor/bin/clang-scan-deps-15.0"
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/clang-scan-deps-15"
+      - "/data/service/hnp/bin/clang-scan-deps-15"
+      - "/storage/Users/currentUser/.harmonybrew/bin/clang-scan-deps-15"
+      - "/data/storage/el2/base/files/home/.qoder/bin/clang-scan-deps-15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/clang-scan-deps-15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/clang-scan-deps-15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/clang-scan-deps-15"
+      - "/data/app/bin/clang-scan-deps-15"
+      - "/data/storage/el1/bundle/libs/arm64/clang-scan-deps-15"
+      - "/usr/local/bin/clang-scan-deps-15"
+      - "/bin/clang-scan-deps-15"
+      - "/usr/bin/clang-scan-deps-15"
+      - "/system/bin/clang-scan-deps-15"
+      - "/vendor/bin/clang-scan-deps-15"
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/clang-scan-deps15"
+      - "/data/service/hnp/bin/clang-scan-deps15"
+      - "/storage/Users/currentUser/.harmonybrew/bin/clang-scan-deps15"
+      - "/data/storage/el2/base/files/home/.qoder/bin/clang-scan-deps15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/clang-scan-deps15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/clang-scan-deps15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/clang-scan-deps15"
+      - "/data/app/bin/clang-scan-deps15"
+      - "/data/storage/el1/bundle/libs/arm64/clang-scan-deps15"
+      - "/usr/local/bin/clang-scan-deps15"
+      - "/bin/clang-scan-deps15"
+      - "/usr/bin/clang-scan-deps15"
+      - "/system/bin/clang-scan-deps15"
+      - "/vendor/bin/clang-scan-deps15"
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/clang-scan-deps"
+      - "/data/service/hnp/bin/clang-scan-deps"
+      - "/storage/Users/currentUser/.harmonybrew/bin/clang-scan-deps"
+      - "/data/storage/el2/base/files/home/.qoder/bin/clang-scan-deps"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/clang-scan-deps"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/clang-scan-deps"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/clang-scan-deps"
+      - "/data/app/bin/clang-scan-deps"
+      - "/data/storage/el1/bundle/libs/arm64/clang-scan-deps"
+      - "/usr/local/bin/clang-scan-deps"
+      - "/bin/clang-scan-deps"
+      - "/usr/bin/clang-scan-deps"
+      - "/system/bin/clang-scan-deps"
+      - "/vendor/bin/clang-scan-deps"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CC"
+      - "c++"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/data/service/hnp/bin/"
+    searched_directories:
+      - "/data/service/hnp/bin/CC"
+      - "/data/service/hnp/bin/c++"
+      - "/data/service/hnp/bin/g++"
+      - "/data/service/hnp/bin/aCC"
+      - "/data/service/hnp/bin/cl"
+      - "/data/service/hnp/bin/bcc"
+      - "/data/service/hnp/bin/xlC"
+      - "/data/service/hnp/bin/icpx"
+      - "/data/service/hnp/bin/icx"
+    found: "/data/service/hnp/bin/clang++"
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/"
+    found: "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /data/service/hnp/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/4.1.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-15.0"
+      - "llvm-ar-15"
+      - "llvm-ar15"
+      - "llvm-ar"
+    candidate_directories:
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/"
+      - "/data/service/hnp/bin/"
+      - "/storage/Users/currentUser/.harmonybrew/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/"
+      - "/data/app/bin/"
+      - "/data/storage/el1/bundle/libs/arm64/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    searched_directories:
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/llvm-ar-15.0"
+      - "/data/service/hnp/bin/llvm-ar-15.0"
+      - "/storage/Users/currentUser/.harmonybrew/bin/llvm-ar-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/bin/llvm-ar-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/llvm-ar-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/llvm-ar-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/llvm-ar-15.0"
+      - "/data/app/bin/llvm-ar-15.0"
+      - "/data/storage/el1/bundle/libs/arm64/llvm-ar-15.0"
+      - "/usr/local/bin/llvm-ar-15.0"
+      - "/bin/llvm-ar-15.0"
+      - "/usr/bin/llvm-ar-15.0"
+      - "/system/bin/llvm-ar-15.0"
+      - "/vendor/bin/llvm-ar-15.0"
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/llvm-ar-15"
+      - "/data/service/hnp/bin/llvm-ar-15"
+      - "/storage/Users/currentUser/.harmonybrew/bin/llvm-ar-15"
+      - "/data/storage/el2/base/files/home/.qoder/bin/llvm-ar-15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/llvm-ar-15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/llvm-ar-15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/llvm-ar-15"
+      - "/data/app/bin/llvm-ar-15"
+      - "/data/storage/el1/bundle/libs/arm64/llvm-ar-15"
+      - "/usr/local/bin/llvm-ar-15"
+      - "/bin/llvm-ar-15"
+      - "/usr/bin/llvm-ar-15"
+      - "/system/bin/llvm-ar-15"
+      - "/vendor/bin/llvm-ar-15"
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/llvm-ar15"
+      - "/data/service/hnp/bin/llvm-ar15"
+      - "/storage/Users/currentUser/.harmonybrew/bin/llvm-ar15"
+      - "/data/storage/el2/base/files/home/.qoder/bin/llvm-ar15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/llvm-ar15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/llvm-ar15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/llvm-ar15"
+      - "/data/app/bin/llvm-ar15"
+      - "/data/storage/el1/bundle/libs/arm64/llvm-ar15"
+      - "/usr/local/bin/llvm-ar15"
+      - "/bin/llvm-ar15"
+      - "/usr/bin/llvm-ar15"
+      - "/system/bin/llvm-ar15"
+      - "/vendor/bin/llvm-ar15"
+    found: "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/llvm-ar"
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-15.0"
+      - "llvm-ranlib-15"
+      - "llvm-ranlib15"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/"
+      - "/data/service/hnp/bin/"
+      - "/storage/Users/currentUser/.harmonybrew/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/"
+      - "/data/app/bin/"
+      - "/data/storage/el1/bundle/libs/arm64/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    searched_directories:
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/llvm-ranlib-15.0"
+      - "/data/service/hnp/bin/llvm-ranlib-15.0"
+      - "/storage/Users/currentUser/.harmonybrew/bin/llvm-ranlib-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/bin/llvm-ranlib-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/llvm-ranlib-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/llvm-ranlib-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/llvm-ranlib-15.0"
+      - "/data/app/bin/llvm-ranlib-15.0"
+      - "/data/storage/el1/bundle/libs/arm64/llvm-ranlib-15.0"
+      - "/usr/local/bin/llvm-ranlib-15.0"
+      - "/bin/llvm-ranlib-15.0"
+      - "/usr/bin/llvm-ranlib-15.0"
+      - "/system/bin/llvm-ranlib-15.0"
+      - "/vendor/bin/llvm-ranlib-15.0"
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/llvm-ranlib-15"
+      - "/data/service/hnp/bin/llvm-ranlib-15"
+      - "/storage/Users/currentUser/.harmonybrew/bin/llvm-ranlib-15"
+      - "/data/storage/el2/base/files/home/.qoder/bin/llvm-ranlib-15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/llvm-ranlib-15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/llvm-ranlib-15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/llvm-ranlib-15"
+      - "/data/app/bin/llvm-ranlib-15"
+      - "/data/storage/el1/bundle/libs/arm64/llvm-ranlib-15"
+      - "/usr/local/bin/llvm-ranlib-15"
+      - "/bin/llvm-ranlib-15"
+      - "/usr/bin/llvm-ranlib-15"
+      - "/system/bin/llvm-ranlib-15"
+      - "/vendor/bin/llvm-ranlib-15"
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/llvm-ranlib15"
+      - "/data/service/hnp/bin/llvm-ranlib15"
+      - "/storage/Users/currentUser/.harmonybrew/bin/llvm-ranlib15"
+      - "/data/storage/el2/base/files/home/.qoder/bin/llvm-ranlib15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/llvm-ranlib15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/llvm-ranlib15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/llvm-ranlib15"
+      - "/data/app/bin/llvm-ranlib15"
+      - "/data/storage/el1/bundle/libs/arm64/llvm-ranlib15"
+      - "/usr/local/bin/llvm-ranlib15"
+      - "/bin/llvm-ranlib15"
+      - "/usr/bin/llvm-ranlib15"
+      - "/system/bin/llvm-ranlib15"
+      - "/vendor/bin/llvm-ranlib15"
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/llvm-ranlib"
+    found: "/data/service/hnp/bin/llvm-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-15.0"
+      - "clang-scan-deps-15"
+      - "clang-scan-deps15"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/"
+      - "/data/service/hnp/bin/"
+      - "/storage/Users/currentUser/.harmonybrew/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/"
+      - "/data/app/bin/"
+      - "/data/storage/el1/bundle/libs/arm64/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/bin/"
+      - "/system/bin/"
+      - "/vendor/bin/"
+    searched_directories:
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/clang-scan-deps-15.0"
+      - "/data/service/hnp/bin/clang-scan-deps-15.0"
+      - "/storage/Users/currentUser/.harmonybrew/bin/clang-scan-deps-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/bin/clang-scan-deps-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/clang-scan-deps-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/clang-scan-deps-15.0"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/clang-scan-deps-15.0"
+      - "/data/app/bin/clang-scan-deps-15.0"
+      - "/data/storage/el1/bundle/libs/arm64/clang-scan-deps-15.0"
+      - "/usr/local/bin/clang-scan-deps-15.0"
+      - "/bin/clang-scan-deps-15.0"
+      - "/usr/bin/clang-scan-deps-15.0"
+      - "/system/bin/clang-scan-deps-15.0"
+      - "/vendor/bin/clang-scan-deps-15.0"
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/clang-scan-deps-15"
+      - "/data/service/hnp/bin/clang-scan-deps-15"
+      - "/storage/Users/currentUser/.harmonybrew/bin/clang-scan-deps-15"
+      - "/data/storage/el2/base/files/home/.qoder/bin/clang-scan-deps-15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/clang-scan-deps-15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/clang-scan-deps-15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/clang-scan-deps-15"
+      - "/data/app/bin/clang-scan-deps-15"
+      - "/data/storage/el1/bundle/libs/arm64/clang-scan-deps-15"
+      - "/usr/local/bin/clang-scan-deps-15"
+      - "/bin/clang-scan-deps-15"
+      - "/usr/bin/clang-scan-deps-15"
+      - "/system/bin/clang-scan-deps-15"
+      - "/vendor/bin/clang-scan-deps-15"
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/clang-scan-deps15"
+      - "/data/service/hnp/bin/clang-scan-deps15"
+      - "/storage/Users/currentUser/.harmonybrew/bin/clang-scan-deps15"
+      - "/data/storage/el2/base/files/home/.qoder/bin/clang-scan-deps15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/clang-scan-deps15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/clang-scan-deps15"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/clang-scan-deps15"
+      - "/data/app/bin/clang-scan-deps15"
+      - "/data/storage/el1/bundle/libs/arm64/clang-scan-deps15"
+      - "/usr/local/bin/clang-scan-deps15"
+      - "/bin/clang-scan-deps15"
+      - "/usr/bin/clang-scan-deps15"
+      - "/system/bin/clang-scan-deps15"
+      - "/vendor/bin/clang-scan-deps15"
+      - "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/clang-scan-deps"
+      - "/data/service/hnp/bin/clang-scan-deps"
+      - "/storage/Users/currentUser/.harmonybrew/bin/clang-scan-deps"
+      - "/data/storage/el2/base/files/home/.qoder/bin/clang-scan-deps"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin/clang-scan-deps"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin/clang-scan-deps"
+      - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin/clang-scan-deps"
+      - "/data/app/bin/clang-scan-deps"
+      - "/data/storage/el1/bundle/libs/arm64/clang-scan-deps"
+      - "/usr/local/bin/clang-scan-deps"
+      - "/bin/clang-scan-deps"
+      - "/usr/bin/clang-scan-deps"
+      - "/system/bin/clang-scan-deps"
+      - "/vendor/bin/clang-scan-deps"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/storage/Users/currentUser/.harmonybrew/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoderapp-bundler/qoder-context/1.0.43.a4ad4fd/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/dingtalk/0.1.0/bin"
+        - "/data/storage/el2/base/files/home/.qoder/plugins/cache/qoder-marketplace/lark/0.1.0/bin"
+        - "/data/app/bin"
+        - "/data/storage/el2/base/files/home/.qoder/bin"
+        - "/data/storage/el1/bundle/libs/arm64"
+        - "/data/service/hnp/bin"
+        - "/usr/local/bin"
+        - "/bin"
+        - "/usr/bin"
+        - "/system/bin"
+        - "/vendor/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/CMakeScratch/TryCompile-IgPclj"
+      binary: "/storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/CMakeScratch/TryCompile-IgPclj"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/CMakeScratch/TryCompile-IgPclj'
+        
+        Run Build Command(s): /data/service/hnp/bin/ninja -v cmTC_8d88d
+        [1/2] /data/service/hnp/bin/clang   -v -MD -MT CMakeFiles/cmTC_8d88d.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_8d88d.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_8d88d.dir/CMakeCCompilerABI.c.obj -c /data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeCCompilerABI.c
+        clang version 15.0.4 (/srv/workspace/llvm-release/2026_0313_llvm15_release/toolchain/llvm-project/clang 0e01a01d567b9acfce8edfdadb66a7b69f088fb0)
+        Target: aarch64-unknown-linux-ohos
+        Thread model: posix
+        InstalledDir: /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin
+         (in-process)
+         "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/clang-15" -cc1 -triple aarch64-unknown-linux-ohos -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/CMakeScratch/TryCompile-IgPclj -resource-dir /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4 -dependency-file CMakeFiles/cmTC_8d88d.dir/CMakeCCompilerABI.c.obj.d -MT CMakeFiles/cmTC_8d88d.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/include -internal-externc-isystem /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include/aarch64-linux-ohos -internal-externc-isystem /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/include -internal-externc-isystem /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include -fdebug-compilation-dir=/storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/CMakeScratch/TryCompile-IgPclj -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_8d88d.dir/CMakeCCompilerABI.c.obj -x c /data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 15.0.4 based upon LLVM 15.0.4 default target aarch64-linux-ohos
+        ignoring nonexistent directory "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/include
+         /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include/aarch64-linux-ohos
+         /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include
+        End of search list.
+        [2/2] : && /data/service/hnp/bin/clang  -v CMakeFiles/cmTC_8d88d.dir/CMakeCCompilerABI.c.obj -o cmTC_8d88d   && :
+        clang version 15.0.4 (/srv/workspace/llvm-release/2026_0313_llvm15_release/toolchain/llvm-project/clang 0e01a01d567b9acfce8edfdadb66a7b69f088fb0)
+        Target: aarch64-unknown-linux-ohos
+        Thread model: posix
+        InstalledDir: /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin
+         "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/ld.lld" -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /lib/ld-musl-aarch64.so.1 -o cmTC_8d88d /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/crti.o /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtbegin.o -L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos -L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/ -L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../lib/aarch64-linux-ohos/ -L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/ CMakeFiles/cmTC_8d88d.dir/CMakeCCompilerABI.c.obj /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a -l:libunwind.a -lc /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a -l:libunwind.a /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtend.o /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/crtn.o
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/include]
+          add: [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include/aarch64-linux-ohos]
+          add: [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include]
+        end of search list found
+        collapse include dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/include] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/include]
+        collapse include dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include/aarch64-linux-ohos] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/include/aarch64-linux-ohos]
+        collapse include dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/include]
+        implicit include dirs: [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/include;/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/include/aarch64-linux-ohos;/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/CMakeScratch/TryCompile-IgPclj']
+        ignore line: []
+        ignore line: [Run Build Command(s): /data/service/hnp/bin/ninja -v cmTC_8d88d]
+        ignore line: [[1/2] /data/service/hnp/bin/clang   -v -MD -MT CMakeFiles/cmTC_8d88d.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_8d88d.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_8d88d.dir/CMakeCCompilerABI.c.obj -c /data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 15.0.4 (/srv/workspace/llvm-release/2026_0313_llvm15_release/toolchain/llvm-project/clang 0e01a01d567b9acfce8edfdadb66a7b69f088fb0)]
+        ignore line: [Target: aarch64-unknown-linux-ohos]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/clang-15" -cc1 -triple aarch64-unknown-linux-ohos -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/CMakeScratch/TryCompile-IgPclj -resource-dir /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4 -dependency-file CMakeFiles/cmTC_8d88d.dir/CMakeCCompilerABI.c.obj.d -MT CMakeFiles/cmTC_8d88d.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/include -internal-externc-isystem /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include/aarch64-linux-ohos -internal-externc-isystem /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/include -internal-externc-isystem /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include -fdebug-compilation-dir=/storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/CMakeScratch/TryCompile-IgPclj -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_8d88d.dir/CMakeCCompilerABI.c.obj -x c /data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 15.0.4 based upon LLVM 15.0.4 default target aarch64-linux-ohos]
+        ignore line: [ignoring nonexistent directory "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/include]
+        ignore line: [ /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include/aarch64-linux-ohos]
+        ignore line: [ /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /data/service/hnp/bin/clang  -v CMakeFiles/cmTC_8d88d.dir/CMakeCCompilerABI.c.obj -o cmTC_8d88d   && :]
+        ignore line: [clang version 15.0.4 (/srv/workspace/llvm-release/2026_0313_llvm15_release/toolchain/llvm-project/clang 0e01a01d567b9acfce8edfdadb66a7b69f088fb0)]
+        ignore line: [Target: aarch64-unknown-linux-ohos]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin]
+        link line: [ "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/ld.lld" -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /lib/ld-musl-aarch64.so.1 -o cmTC_8d88d /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/crti.o /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtbegin.o -L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos -L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/ -L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../lib/aarch64-linux-ohos/ -L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/ CMakeFiles/cmTC_8d88d.dir/CMakeCCompilerABI.c.obj /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a -l:libunwind.a -lc /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a -l:libunwind.a /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtend.o /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/crtn.o]
+          arg [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/ld.lld] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-EL] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-zmax-page-size=4096] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--hash-style=both] ==> ignore
+          arg [--enable-new-dtags] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [aarch64linux] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-musl-aarch64.so.1] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_8d88d] ==> ignore
+          arg [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o] ==> obj [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o]
+          arg [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/crti.o] ==> obj [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/crti.o]
+          arg [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtbegin.o] ==> obj [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtbegin.o]
+          arg [-L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos] ==> dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos]
+          arg [-L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/] ==> dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/]
+          arg [-L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../lib/aarch64-linux-ohos/] ==> dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../lib/aarch64-linux-ohos/]
+          arg [-L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/] ==> dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/]
+          arg [CMakeFiles/cmTC_8d88d.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a] ==> lib [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-lc] ==> lib [c]
+          arg [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a] ==> lib [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtend.o] ==> obj [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtend.o]
+          arg [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/crtn.o] ==> obj [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/crtn.o]
+        linker tool for 'C': /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/ld.lld
+        remove lib [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a]
+        remove lib [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a]
+        collapse obj [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o]
+        collapse obj [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/crti.o] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/lib/aarch64-linux-ohos/crti.o]
+        collapse obj [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/crtn.o] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/lib/aarch64-linux-ohos/crtn.o]
+        collapse library dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos]
+        collapse library dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/lib]
+        collapse library dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../lib/aarch64-linux-ohos/] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/aarch64-linux-ohos]
+        collapse library dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/lib/aarch64-linux-ohos]
+        implicit libs: [-l:libunwind.a;c;-l:libunwind.a]
+        implicit objs: [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o;/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/lib/aarch64-linux-ohos/crti.o;/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtbegin.o;/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtend.o;/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/lib/aarch64-linux-ohos/crtn.o]
+        implicit dirs: [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos;/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/lib;/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/aarch64-linux-ohos;/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/lib/aarch64-linux-ohos]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the C compiler's linker: "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/ld.lld" "-v"
+      LLD 15.0.4 (compatible with GNU linkers)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/CMakeScratch/TryCompile-ihJDBI"
+      binary: "/storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/CMakeScratch/TryCompile-ihJDBI"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/CMakeScratch/TryCompile-ihJDBI'
+        
+        Run Build Command(s): /data/service/hnp/bin/ninja -v cmTC_45e37
+        [1/2] /data/service/hnp/bin/clang++   -v -MD -MT CMakeFiles/cmTC_45e37.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_45e37.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_45e37.dir/CMakeCXXCompilerABI.cpp.obj -c /data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
+        clang version 15.0.4 (/srv/workspace/llvm-release/2026_0313_llvm15_release/toolchain/llvm-project/clang 0e01a01d567b9acfce8edfdadb66a7b69f088fb0)
+        Target: aarch64-unknown-linux-ohos
+        Thread model: posix
+        InstalledDir: /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin
+         (in-process)
+         "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/clang-15" -cc1 -triple aarch64-unknown-linux-ohos -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/CMakeScratch/TryCompile-ihJDBI -resource-dir /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4 -dependency-file CMakeFiles/cmTC_45e37.dir/CMakeCXXCompilerABI.cpp.obj.d -MT CMakeFiles/cmTC_45e37.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../include/libcxx-ohos/include/c++/v1 -internal-isystem /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/include -internal-externc-isystem /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include/aarch64-linux-ohos -internal-externc-isystem /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/include -internal-externc-isystem /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include -fdeprecated-macro -fdebug-compilation-dir=/storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/CMakeScratch/TryCompile-ihJDBI -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_45e37.dir/CMakeCXXCompilerABI.cpp.obj -x c++ /data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 15.0.4 based upon LLVM 15.0.4 default target aarch64-linux-ohos
+        ignoring nonexistent directory "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../include/libcxx-ohos/include/c++/v1
+         /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/include
+         /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include/aarch64-linux-ohos
+         /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include
+        End of search list.
+        [2/2] : && /data/service/hnp/bin/clang++  -v CMakeFiles/cmTC_45e37.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_45e37   && :
+        clang version 15.0.4 (/srv/workspace/llvm-release/2026_0313_llvm15_release/toolchain/llvm-project/clang 0e01a01d567b9acfce8edfdadb66a7b69f088fb0)
+        Target: aarch64-unknown-linux-ohos
+        Thread model: posix
+        InstalledDir: /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin
+         "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/ld.lld" -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /lib/ld-musl-aarch64.so.1 -o cmTC_45e37 /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/crti.o /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtbegin.o -L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos -L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/ -L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../lib/aarch64-linux-ohos/ -L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/ CMakeFiles/cmTC_45e37.dir/CMakeCXXCompilerABI.cpp.obj -lc++ -lc++abi -lunwind -lm /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a -l:libunwind.a -lc /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a -l:libunwind.a /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtend.o /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/crtn.o
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../include/libcxx-ohos/include/c++/v1]
+          add: [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/include]
+          add: [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include/aarch64-linux-ohos]
+          add: [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include]
+        end of search list found
+        collapse include dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../include/libcxx-ohos/include/c++/v1] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/include/libcxx-ohos/include/c++/v1]
+        collapse include dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/include] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/include]
+        collapse include dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include/aarch64-linux-ohos] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/include/aarch64-linux-ohos]
+        collapse include dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/include]
+        implicit include dirs: [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/include/libcxx-ohos/include/c++/v1;/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/include;/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/include/aarch64-linux-ohos;/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/CMakeScratch/TryCompile-ihJDBI']
+        ignore line: []
+        ignore line: [Run Build Command(s): /data/service/hnp/bin/ninja -v cmTC_45e37]
+        ignore line: [[1/2] /data/service/hnp/bin/clang++   -v -MD -MT CMakeFiles/cmTC_45e37.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_45e37.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_45e37.dir/CMakeCXXCompilerABI.cpp.obj -c /data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 15.0.4 (/srv/workspace/llvm-release/2026_0313_llvm15_release/toolchain/llvm-project/clang 0e01a01d567b9acfce8edfdadb66a7b69f088fb0)]
+        ignore line: [Target: aarch64-unknown-linux-ohos]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/clang-15" -cc1 -triple aarch64-unknown-linux-ohos -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/CMakeScratch/TryCompile-ihJDBI -resource-dir /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4 -dependency-file CMakeFiles/cmTC_45e37.dir/CMakeCXXCompilerABI.cpp.obj.d -MT CMakeFiles/cmTC_45e37.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../include/libcxx-ohos/include/c++/v1 -internal-isystem /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/include -internal-externc-isystem /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include/aarch64-linux-ohos -internal-externc-isystem /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/include -internal-externc-isystem /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include -fdeprecated-macro -fdebug-compilation-dir=/storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/CMakeScratch/TryCompile-ihJDBI -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_45e37.dir/CMakeCXXCompilerABI.cpp.obj -x c++ /data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 15.0.4 based upon LLVM 15.0.4 default target aarch64-linux-ohos]
+        ignore line: [ignoring nonexistent directory "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../include/libcxx-ohos/include/c++/v1]
+        ignore line: [ /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/include]
+        ignore line: [ /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include/aarch64-linux-ohos]
+        ignore line: [ /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /data/service/hnp/bin/clang++  -v CMakeFiles/cmTC_45e37.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_45e37   && :]
+        ignore line: [clang version 15.0.4 (/srv/workspace/llvm-release/2026_0313_llvm15_release/toolchain/llvm-project/clang 0e01a01d567b9acfce8edfdadb66a7b69f088fb0)]
+        ignore line: [Target: aarch64-unknown-linux-ohos]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin]
+        link line: [ "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/ld.lld" -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /lib/ld-musl-aarch64.so.1 -o cmTC_45e37 /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/crti.o /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtbegin.o -L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos -L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/ -L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../lib/aarch64-linux-ohos/ -L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/ CMakeFiles/cmTC_45e37.dir/CMakeCXXCompilerABI.cpp.obj -lc++ -lc++abi -lunwind -lm /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a -l:libunwind.a -lc /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a -l:libunwind.a /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtend.o /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/crtn.o]
+          arg [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/ld.lld] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-EL] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-zmax-page-size=4096] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--hash-style=both] ==> ignore
+          arg [--enable-new-dtags] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [aarch64linux] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-musl-aarch64.so.1] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_45e37] ==> ignore
+          arg [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o] ==> obj [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o]
+          arg [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/crti.o] ==> obj [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/crti.o]
+          arg [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtbegin.o] ==> obj [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtbegin.o]
+          arg [-L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos] ==> dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos]
+          arg [-L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/] ==> dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/]
+          arg [-L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../lib/aarch64-linux-ohos/] ==> dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../lib/aarch64-linux-ohos/]
+          arg [-L/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/] ==> dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/]
+          arg [CMakeFiles/cmTC_45e37.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lc++abi] ==> lib [c++abi]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lm] ==> lib [m]
+          arg [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a] ==> lib [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-lc] ==> lib [c]
+          arg [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a] ==> lib [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtend.o] ==> obj [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtend.o]
+          arg [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/crtn.o] ==> obj [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/crtn.o]
+        linker tool for 'CXX': /data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/ld.lld
+        remove lib [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a]
+        remove lib [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a]
+        collapse obj [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o]
+        collapse obj [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/crti.o] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/lib/aarch64-linux-ohos/crti.o]
+        collapse obj [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/crtn.o] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/lib/aarch64-linux-ohos/crtn.o]
+        collapse library dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos]
+        collapse library dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/lib]
+        collapse library dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../lib/aarch64-linux-ohos/] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/aarch64-linux-ohos]
+        collapse library dir [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/../../sysroot/usr/lib/aarch64-linux-ohos/] ==> [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/lib/aarch64-linux-ohos]
+        implicit libs: [c++;c++abi;unwind;m;-l:libunwind.a;c;-l:libunwind.a]
+        implicit objs: [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o;/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/lib/aarch64-linux-ohos/crti.o;/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtbegin.o;/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtend.o;/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/lib/aarch64-linux-ohos/crtn.o]
+        implicit dirs: [/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos;/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/lib;/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/lib/aarch64-linux-ohos;/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/sysroot/usr/lib/aarch64-linux-ohos]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/data/service/hnp/cmake.org/cmake_4.1.2/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the CXX compiler's linker: "/data/service/hnp/ohos-sdk.org/ohos-sdk_26.0.0.18/ohos/native/llvm/bin/ld.lld" "-v"
+      LLD 15.0.4 (compatible with GNU linkers)
+...

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>鸿蒙 PC 主流开发场景 Top8 验证</title>
+<style>
+  :root { --bg:#0d1117; --fg:#e6edf3; --acc:#3fb950; --bad:#f85149; --mut:#8b949e; --card:#161b22; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--bg); color:var(--fg); font-family:"HarmonyOS Sans SC","PingFang SC",sans-serif; overflow:hidden; }
+  .deck { width:100vw; height:100vh; position:relative; }
+  section { display:none; width:100%; height:100%; padding:6vh 8vw; flex-direction:column; }
+  section.active { display:flex; }
+  h1 { font-size:2.6rem; margin-bottom:1rem; }
+  h2 { font-size:1.8rem; border-left:6px solid var(--acc); padding-left:1rem; margin-bottom:2.5vh; }
+  .muted { color:var(--mut); font-size:1.1rem; }
+  .grid { display:grid; gap:1.2rem; margin-top:auto; margin-bottom:auto; }
+  .cards { grid-template-columns:repeat(2,1fr); }
+  .card { background:var(--card); border:1px solid #30363d; border-radius:12px; padding:1.4rem; }
+  .ok::before { content:"✅ "; } .no::before { content:"❌ "; } .warn::before { content:"⚠️ "; }
+  table { width:100%; border-collapse:collapse; font-size:1.15rem; }
+  th,td { padding:.7rem 1rem; border-bottom:1px solid #30363d; text-align:left; }
+  th { color:var(--mut); font-weight:600; }
+  .tag-ok { color:var(--acc); } .tag-no { color:var(--bad); }
+  code { background:#21262d; padding:.15rem .5rem; border-radius:6px; font-size:.95em; }
+  .big { font-size:3.4rem; font-weight:700; }
+  .nav { position:fixed; bottom:2vh; right:3vw; color:var(--mut); font-size:1rem; }
+  ul { margin-left:1.4rem; line-height:1.9; } li::marker { color:var(--acc); }
+  .quote { font-size:1.3rem; color:var(--mut); font-style:italic; margin-top:1rem; }
+</style>
+</head>
+<body>
+<div class="deck">
+
+<section class="active" style="justify-content:center">
+  <h1>鸿蒙 PC 主流开发场景<br>Top8 全面验证基准</h1>
+  <p class="muted">HarmonyOS PC · HongMeng Kernel 1.13 · aarch64/musl · 2026-09-28<br>
+  评测框架：完备度 → 问题定位 → 性能与易用性 · 全部结论来自项目级真实测试</p>
+</section>
+
+<section>
+  <h2>方法：19 项场景全集 → Top8</h2>
+  <ul>
+    <li>全集按「静态/非静态 × 前端/后端」矩阵分 5 组 19 项</li>
+    <li>选取准则：矩阵全覆盖 · 本机可端到端实测 · 主流高频 · 鸿蒙优先</li>
+    <li>Git 不单列 —— 作为公共环节贯穿每个场景；Redis/SQLite 内嵌为数据层断言</li>
+    <li>每个场景 = 真实工程：依赖安装 → 构建 → 运行 → 可复核产物</li>
+  </ul>
+  <p class="quote">教训：Java 曾被"嗅探"误判为不可用，渠道（HarmonyBrew）补装后真实项目复测翻绿</p>
+</section>
+
+<section>
+  <h2>结果总览：7 / 8 通过</h2>
+  <table>
+    <tr><th>#</th><th>场景</th><th>象限</th><th>结果</th></tr>
+    <tr><td>1</td><td>鸿蒙 HAP 编译 + 签名</td><td>非静态·客户端</td><td class="tag-ok">✅ 29s 构建，sign/verify 双过</td></tr>
+    <tr><td>2</td><td>鸿蒙 ArkTS 运行调试</td><td>非静态·客户端</td><td class="tag-no">❌ 无部署通道（预期内）</td></tr>
+    <tr><td>3</td><td>Java 后端</td><td>非静态·后端</td><td class="tag-ok">✅ JDK26+Maven，测试 3/3</td></tr>
+    <tr><td>4</td><td>前端 SPA</td><td>静态·前端</td><td class="tag-ok">✅ Vite❌ → webpack/WASM 过</td></tr>
+    <tr><td>5</td><td>静态站点+本地预览</td><td>静态·前端</td><td class="tag-ok">✅</td></tr>
+    <tr><td>6</td><td>Node HTTP API</td><td>非静态·后端</td><td class="tag-ok">✅</td></tr>
+    <tr><td>7</td><td>Python Web + pip</td><td>非静态·后端</td><td class="tag-ok">✅ Flask 实测</td></tr>
+    <tr><td>8</td><td>C/C++ 编译</td><td>非静态·系统</td><td class="tag-ok">✅ clang15/CMake/Ninja</td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>鸿蒙线：编译签名全通，运行调试断路</h2>
+  <div class="grid cards">
+    <div class="card ok">HAP 编译：改码增量 <b>29s</b>（hvigor 设备直驱，33 tasks）</div>
+    <div class="card ok">签名+校验：hap-sign-tool <b>sign / verify successed</b>，产物 102KB</div>
+    <div class="card no">运行调试：<code>hdc list targets</code> = [Empty]，沙箱无 USB/无模拟器</div>
+    <div class="card warn">解法：外接第二台鸿蒙设备无线调试，或打通本机 hdcd 通道</div>
+  </div>
+  <p class="quote">"写→编→签" 齐备，"装→跑→调" 断在最后一环</p>
+</section>
+
+<section>
+  <h2>Java 线：HarmonyBrew 真实项目验证</h2>
+  <div class="grid cards">
+    <div class="card ok">渠道：HarmonyBrew（bottle 为 OHOS 原生构建，可直接执行）</div>
+    <div class="card ok">安装：openjdk 26.0.2.1（56 依赖）+ maven 3.9.16</div>
+    <div class="card ok">工程：order-service（JUnit5+surefire）<code>mvn package</code> 21.5s，测试 3/3 通过</div>
+    <div class="card ok">运行：<code>java -jar</code> → created ORD-1, total=1（双 agent 复核）</div>
+  </div>
+  <p class="quote">坑：沙箱 ~ 双根路径，JAVA_HOME 需绝对路径</p>
+</section>
+
+<section>
+  <h2>前端线：Vite 的墙与两条退路</h2>
+  <div class="grid cards">
+    <div class="card no">Vite/esbuild/rollup@4/SWC/tailwind-oxide 全线不可用</div>
+    <div class="card ok">退路A webpack+ts-loader 纯JS：10.4s → 260KB bundle，HTTP 200</div>
+    <div class="card ok">退路B @rollup/wasm-node：15.5s → 1.35MB，可用作 Vite 生态兼容</div>
+    <div class="card warn">WASM 代价：慢 1.5–2.5×，RSS 峰值 481MB；esbuild 无官方 wasm 回退（vite#13208 NOT_PLANNED）</div>
+  </div>
+</section>
+
+<section>
+  <h2>根因：不是签名，是 ELF section header 校验</h2>
+  <ul>
+    <li>假说一「SELinux 来源标签」被推翻：自编 ELF 与其 <code>cat</code> 副本标签相同（<code>hmdfs:s0</code>）都能跑</li>
+    <li><b>决定性实验</b>：把正常 ELF 的 shdr 偏移字段写坏 8 字节 → 立刻 <code>permission denied</code></li>
+    <li>鸿蒙 loader <b>严格校验 section header</b>；Go 二进制（<code>bad shdr</code>）/Rust native 因此被拒，Linux 宽容</li>
+    <li>HNP / HarmonyBrew bottle 是 OHOS 原生构建 → 不受影响</li>
+  </ul>
+  <p class="quote">一次嗅探给你现象，一组对照实验给你根因</p>
+</section>
+
+<section>
+  <h2>性能观测</h2>
+  <table>
+    <tr><th>项目</th><th>耗时</th><th>备注</th></tr>
+    <tr><td>鸿蒙 HAP 增量构建</td><td>29 s</td><td>33 tasks，16 执行</td></tr>
+    <tr><td>Java mvn package</td><td>21.5 s</td><td>含 JUnit 执行</td></tr>
+    <tr><td>webpack 纯 JS 构建</td><td>10.4 s</td><td>260KB 产物</td></tr>
+    <tr><td>Rollup WASM 构建</td><td>15.5–25.8 s</td><td>方差大，RSS 481MB</td></tr>
+    <tr><td>npm 安装 314 包</td><td>15 s</td><td>须 --ignore-scripts</td></tr>
+    <tr><td>Flask / Redis 启动</td><td>4 s / 1 s</td><td>服务可用</td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>摩擦点清单</h2>
+  <ul>
+    <li>外来原生二进制被 shdr 校验拦截 → 前端锁定纯 JS/WASM 栈</li>
+    <li>无部署通道 → 客户端闭环断在最后一环</li>
+    <li>系统预置无 JVM → 依赖 HarmonyBrew 渠道（装后体验正常）</li>
+    <li>沙箱 <code>~</code> 双根 / hmdfs 属主（git safe.directory）/ <code>/tmp</code> 只读</li>
+    <li>Electron node 的 stderr 噪声、<code>process.platform=ohos</code> optional deps 缺装</li>
+  </ul>
+</section>
+
+<section>
+  <h2>结论与建议栈</h2>
+  <div class="grid cards">
+    <div class="card ok"><b>可投产</b>：Node/Python/Java 后端、C/C++、Redis/SQLite、静态站点、纯 JS/WASM 前端、HAP 编译签名</div>
+    <div class="card no"><b>待解</b>：运行调试通道（外接设备 / hdcd 监听）</div>
+    <div class="card warn"><b>建议栈</b>：HNP 系统工具 + HarmonyBrew 用户软件 + webpack 为主、rollup-wasm 备选 + hvigor 直驱；真机运行验证放外部设备</div>
+    <div class="card"><b>原则</b>：完备度 → 有无问题 → 性能/易用性；判"不可用"前必须穷举渠道 + 项目级实测</div>
+  </div>
+  <p class="nav">依据：dev-top8-lab/BENCH.md（git 提交 60906f0）</p>
+</section>
+
+</div>
+<div class="nav" id="pageno">1 / 10 · ←→ 翻页</div>
+<script>
+const S=[...document.querySelectorAll('section')];let i=0;
+function show(n){i=Math.max(0,Math.min(S.length-1,n));S.forEach((s,k)=>s.classList.toggle('active',k===i));document.getElementById('pageno').textContent=`${i+1} / ${S.length} · ←→ 翻页`;}
+addEventListener('keydown',e=>{if(['ArrowRight','PageDown',' '].includes(e.key))show(i+1);if(['ArrowLeft','PageUp'].includes(e.key))show(i-1);});
+addEventListener('click',e=>{if(e.target.closest('a'))return;show(i+1)});
+</script>
+</body>
+</html>

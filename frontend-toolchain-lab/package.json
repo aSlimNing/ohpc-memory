@@ -1,0 +1,43 @@
+{
+  "name": "frontend-toolchain-lab",
+  "private": true,
+  "version": "1.0.0",
+  "description": "HarmonyOS 设备前端工具链完备度验证项目",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "npm run dev --workspace @lab/web",
+    "build": "npm run build --workspace @lab/web",
+    "preview": "npm run preview --workspace @lab/web",
+    "test": "npm run test --workspace @lab/web",
+    "lint": "npm run lint --workspace @lab/web",
+    "typecheck": "npm run typecheck --workspaces",
+    "mock": "node scripts/mock-api.mjs",
+    "verify": "node scripts/verify-all.mjs",
+    "check:env": "node scripts/check-env.mjs",
+    "check:native": "node scripts/check-native.mjs",
+    "smoke:dev": "node scripts/smoke-test.mjs dev",
+    "smoke:preview": "node scripts/smoke-test.mjs preview",
+    "smoke:hmr": "node scripts/hmr-probe.mjs",
+    "smoke:proxy": "node scripts/verify-proxy.mjs",
+    "check:webpack": "node scripts/check-webpack.mjs",
+    "check:artifacts": "node scripts/verify-artifacts.mjs",
+    "postinstall": "node scripts/patch-toolchain.mjs"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@swc/wasm": "^1.16.2",
+    "css-loader": "^7.1.5",
+    "esbuild-wasm": "^0.25.12",
+    "sass-loader": "^17.0.1",
+    "style-loader": "^4.0.0",
+    "terser": "^5.51.2",
+    "ts-loader": "^9.6.2",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3"
+  }
+}

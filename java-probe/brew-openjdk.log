@@ -1,0 +1,322 @@
+==> Auto-updating Homebrew...
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Homebrew collects anonymous analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics have been recorded yet (nor will be during this `brew` run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#-donations
+
+Installing from the API is now the default behaviour!
+You can save space and time by running:
+  brew untap homebrew/cask
+==> Would install 1 formula:
+openjdk 26.0.2.1_2
+==> Would install 56 dependencies for openjdk:
+zlib-ng-compat
+libpng
+bzip2
+freetype
+giflib
+libunistring
+ncurses
+readline
+libxml2
+gettext
+expat
+fontconfig
+pcre2
+dbus
+libxcrypt
+sqlite
+util-linux
+libffi
+mpdecimal
+ca-certificates
+openssl@3
+xz
+lz4
+zstd
+musl-compat
+libedit
+unzip
+python@3.14
+glib
+xorgproto
+libxau
+libxdmcp
+libxcb
+libx11
+libxext
+libxrender
+lzo
+pixman
+cairo
+graphite2
+icu4c@78
+harfbuzz
+jpeg-turbo
+libtiff
+little-cms2
+alsa-lib
+libxfixes
+libxi
+libxrandr
+libice
+libsm
+libxt
+libxtst
+krb5
+cups
+zip
+==> Fetching downloads for: openjdk
+✔︎ Bottle zlib-ng-compat (2.3.3_2)
+✔︎ Bottle libpng (1.6.58_1)
+✔︎ Bottle bzip2 (1.0.8_2)
+✔︎ Bottle freetype (2.14.3_1)
+✔︎ Bottle giflib (6.1.3_1)
+✔︎ Bottle libunistring (1.4.2_1)
+✔︎ Bottle ncurses (6.6_1)
+✔︎ Bottle readline (8.3.3_1)
+✔︎ Bottle libxml2 (2.15.4_1)
+✔︎ Bottle gettext (1.0_1)
+✔︎ Bottle expat (2.8.4_1)
+✔︎ Bottle fontconfig (2.17.1_1)
+✔︎ Bottle pcre2 (10.48_1)
+✔︎ Bottle dbus (1.16.2_2)
+✔︎ Bottle libxcrypt (4.5.2_1)
+✔︎ Bottle sqlite (3.53.0_1)
+✔︎ Bottle util-linux (2.42.4)
+✔︎ Bottle libffi (3.8.0_1)
+✔︎ Bottle mpdecimal (4.0.1_1)
+✔︎ Bottle ca-certificates (2026-09-25)
+✔︎ Bottle xz (5.8.4_1)
+✔︎ Bottle lz4 (1.10.0_1)
+✔︎ Bottle zstd (1.5.7_2)
+✔︎ Bottle musl-compat (1.0.1_1)
+✔︎ Bottle libedit (20260512-3.1_1)
+✔︎ Bottle unzip (6.0_9)
+✔︎ Bottle glib (2.88.3_1)
+✔︎ Bottle xorgproto (2025.1_1)
+✔︎ Bottle libxau (1.0.12_1)
+✔︎ Bottle libxdmcp (1.1.5_1)
+✔︎ Bottle libxcb (1.17.0_1)
+✔︎ Bottle libx11 (1.8.13_1)
+✔︎ Bottle libxext (1.3.7_1)
+✔︎ Bottle libxrender (0.9.12_1)
+✔︎ Bottle lzo (2.10_1)
+✔︎ Bottle pixman (0.46.4_1)
+✔︎ Bottle cairo (1.18.6)
+✔︎ Bottle graphite2 (1.3.15_1)
+✔︎ Bottle harfbuzz (14.5.0)
+✔︎ Bottle jpeg-turbo (3.2.0_1)
+✔︎ Bottle libtiff (4.7.2_1)
+✔︎ Bottle little-cms2 (2.19_1)
+✔︎ Bottle alsa-lib (1.2.16.1_1)
+✔︎ Bottle libxfixes (6.0.2_1)
+✔︎ Bottle libxi (1.8.3_1)
+✔︎ Bottle libxrandr (1.5.5_1)
+✔︎ Bottle libice (1.1.2_1)
+✔︎ Bottle libsm (1.2.6_1)
+✔︎ Bottle libxt (1.3.1_1)
+✔︎ Bottle libxtst (1.2.5_1)
+✔︎ Bottle zip (3.0_2)
+✔︎ Bottle krb5 (1.22.2_1)
+✔︎ Bottle openssl@3 (3.6.4_1)
+✔︎ Bottle cups (2.4.19_1)
+✔︎ Bottle python@3.14 (3.14.7_7)
+✔︎ Bottle icu4c@78 (78.3_2)
+✔︎ Bottle openjdk (26.0.2.1_2)
+==> Installing dependencies for openjdk: zlib-ng-compat, libpng, bzip2, freetype, giflib, libunistring, ncurses, readline, libxml2, gettext, expat, fontconfig, pcre2, dbus, libxcrypt, sqlite, util-linux, libffi, mpdecimal, ca-certificates, openssl@3, xz, lz4, zstd, musl-compat, libedit, unzip, python@3.14, glib, xorgproto, libxau, libxdmcp, libxcb, libx11, libxext, libxrender, lzo, pixman, cairo, graphite2, icu4c@78, harfbuzz, jpeg-turbo, libtiff, little-cms2, alsa-lib, libxfixes, libxi, libxrandr, libice, libsm, libxt, libxtst, krb5, cups and zip
+==> Installing openjdk dependency: zlib-ng-compat
+==> Pouring zlib-ng-compat-2.3.3_2.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/zlib-ng-compat/2.3.3_2: 17 files, 489.1KB
+==> Installing openjdk dependency: libpng
+==> Pouring libpng-1.6.58_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/libpng/1.6.58_1: 29 files, 1.4MB
+==> Installing openjdk dependency: bzip2
+==> Pouring bzip2-1.0.8_2.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/bzip2/1.0.8_2: 32 files, 534KB
+==> Installing openjdk dependency: freetype
+==> Pouring freetype-2.14.3_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/freetype/2.14.3_1: 69 files, 2.9MB
+==> Installing openjdk dependency: giflib
+==> Pouring giflib-6.1.3_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/giflib/6.1.3_1: 44 files, 555.6KB
+==> Installing openjdk dependency: libunistring
+==> Pouring libunistring-1.4.2_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/libunistring/1.4.2_1: 60 files, 5.9MB
+==> Installing openjdk dependency: ncurses
+==> Pouring ncurses-6.6_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/ncurses/6.6_1: 4,071 files, 11.2MB
+==> Installing openjdk dependency: readline
+==> Pouring readline-8.3.3_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/readline/8.3.3_1: 56 files, 2.9MB
+==> Installing openjdk dependency: libxml2
+==> Pouring libxml2-2.15.4_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/libxml2/2.15.4_1: 60 files, 2.0MB
+==> Installing openjdk dependency: gettext
+==> Pouring gettext-1.0_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/gettext/1.0_1: 2,580 files, 41.7MB
+==> Installing openjdk dependency: expat
+==> Pouring expat-2.8.4_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/expat/2.8.4_1: 23 files, 808.3KB
+==> Installing openjdk dependency: fontconfig
+Warning: Sandbox unavailable: running post-install without sandboxing!
+==> Pouring fontconfig-2.17.1_1.arm64_ohos.bottle.tar.gz
+Warning: Calling `post_install` is deprecated! Use `post_install_steps` instead.
+==> Regenerating font cache, this may take a while
+==> /storage/Users/currentUser/.harmonybrew/Cellar/fontconfig/2.17.1_1/bin/fc-cache --force --really-force --verbose
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/fontconfig/2.17.1_1: 99 files, 1.4MB
+==> Installing openjdk dependency: pcre2
+==> Pouring pcre2-10.48_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/pcre2/10.48_1: 249 files, 8.1MB
+==> Installing openjdk dependency: dbus
+Warning: Sandbox unavailable: running post-install without sandboxing!
+==> Pouring dbus-1.16.2_2.arm64_ohos.bottle.tar.gz
+Warning: Calling `post_install` is deprecated! Use `post_install_steps` instead.
+==> /storage/Users/currentUser/.harmonybrew/Cellar/dbus/1.16.2_2/bin/dbus-uuidgen --ensure=/storage/Users/currentUser/.harmonybrew/var/lib/dbus/machine-id
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/dbus/1.16.2_2: 78 files, 1.8MB
+==> Installing openjdk dependency: libxcrypt
+==> Pouring libxcrypt-4.5.2_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/libxcrypt/4.5.2_1: 25 files, 370.6KB
+==> Installing openjdk dependency: sqlite
+==> Pouring sqlite-3.53.0_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/sqlite/3.53.0_1: 13 files, 6.8MB
+==> Installing openjdk dependency: util-linux
+==> Pouring util-linux-2.42.4.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/util-linux/2.42.4: 416 files, 25.7MB
+==> Installing openjdk dependency: libffi
+==> Pouring libffi-3.8.0_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/libffi/3.8.0_1: 19 files, 1MB
+==> Installing openjdk dependency: mpdecimal
+==> Pouring mpdecimal-4.0.1_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/mpdecimal/4.0.1_1: 22 files, 715.0KB
+==> Installing openjdk dependency: ca-certificates
+==> Pouring ca-certificates-2026-09-25.arm64_ohos.bottle.tar.gz
+Warning: Sandbox unavailable: running post-install without sandboxing!
+Warning: Calling `post_install` is deprecated! Use `post_install_steps` instead.
+Loaded 125 system certificates
+Loaded 26 Mozilla certificates
+==> CA certificates have been bootstrapped from the system CA store at /etc/ssl/certs/cacert.pem
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/ca-certificates/2026-09-25: 4 files, 212.7KB
+==> Installing openjdk dependency: openssl@3
+Warning: Sandbox unavailable: running post-install without sandboxing!
+==> Pouring openssl@3-3.6.4_1.arm64_ohos.bottle.tar.gz
+Warning: Calling `post_install` is deprecated! Use `post_install_steps` instead.
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/openssl@3/3.6.4_1: 177 files, 22.3MB
+==> Installing openjdk dependency: xz
+==> Pouring xz-5.8.4_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/xz/5.8.4_1: 97 files, 2.7MB
+==> Installing openjdk dependency: lz4
+==> Pouring lz4-1.10.0_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/lz4/1.10.0_1: 24 files, 806.5KB
+==> Installing openjdk dependency: zstd
+==> Pouring zstd-1.5.7_2.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/zstd/1.5.7_2: 32 files, 2.5MB
+==> Installing openjdk dependency: musl-compat
+==> Pouring musl-compat-1.0.1_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/musl-compat/1.0.1_1: 8 files, 60.9KB
+==> Installing openjdk dependency: libedit
+==> Pouring libedit-20260512-3.1_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/libedit/20260512-3.1_1: 61 files, 1.7MB
+==> Installing openjdk dependency: unzip
+==> Pouring unzip-6.0_9.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/unzip/6.0_9: 17 files, 589.8KB
+==> Installing openjdk dependency: python@3.14
+==> Pouring python@3.14-3.14.7_7.arm64_ohos.bottle.1.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/python@3.14/3.14.7_7: 3,332 files, 77.0MB
+==> Installing openjdk dependency: glib
+Warning: Sandbox unavailable: running post-install without sandboxing!
+==> Pouring glib-2.88.3_1.arm64_ohos.bottle.tar.gz
+Warning: Calling `post_install` is deprecated! Use `post_install_steps` instead.
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/glib/2.88.3_1: 514 files, 41.7MB
+==> Installing openjdk dependency: xorgproto
+==> Pouring xorgproto-2025.1_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/xorgproto/2025.1_1: 268 files, 4.2MB
+==> Installing openjdk dependency: libxau
+==> Pouring libxau-1.0.12_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/libxau/1.0.12_1: 22 files, 134.9KB
+==> Installing openjdk dependency: libxdmcp
+==> Pouring libxdmcp-1.1.5_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/libxdmcp/1.1.5_1: 13 files, 137.4KB
+==> Installing openjdk dependency: libxcb
+==> Pouring libxcb-1.17.0_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/libxcb/1.17.0_1: 2,498 files, 6.6MB
+==> Installing openjdk dependency: libx11
+==> Pouring libx11-1.8.13_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/libx11/1.8.13_1: 1,050 files, 7.8MB
+==> Installing openjdk dependency: libxext
+==> Pouring libxext-1.3.7_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/libxext/1.3.7_1: 89 files, 492.1KB
+==> Installing openjdk dependency: libxrender
+==> Pouring libxrender-0.9.12_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/libxrender/0.9.12_1: 14 files, 218KB
+==> Installing openjdk dependency: lzo
+==> Pouring lzo-2.10_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/lzo/2.10_1: 33 files, 653.7KB
+==> Installing openjdk dependency: pixman
+==> Pouring pixman-0.46.4_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/pixman/0.46.4_1: 12 files, 1.6MB
+==> Installing openjdk dependency: cairo
+==> Pouring cairo-1.18.6.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/cairo/1.18.6: 56 files, 4.7MB
+==> Installing openjdk dependency: graphite2
+==> Pouring graphite2-1.3.15_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/graphite2/1.3.15_1: 19 files, 257.7KB
+==> Installing openjdk dependency: icu4c@78
+==> Pouring icu4c@78-78.3_2.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/icu4c@78/78.3_2: 279 files, 90.0MB
+==> Installing openjdk dependency: harfbuzz
+==> Pouring harfbuzz-14.5.0.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/harfbuzz/14.5.0: 103 files, 15MB
+==> Installing openjdk dependency: jpeg-turbo
+==> Pouring jpeg-turbo-3.2.0_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/jpeg-turbo/3.2.0_1: 47 files, 4.6MB
+==> Installing openjdk dependency: libtiff
+==> Pouring libtiff-4.7.2_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/libtiff/4.7.2_1: 495 files, 8.5MB
+==> Installing openjdk dependency: little-cms2
+==> Pouring little-cms2-2.19_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/little-cms2/2.19_1: 24 files, 1.3MB
+==> Installing openjdk dependency: alsa-lib
+==> Pouring alsa-lib-1.2.16.1_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/alsa-lib/1.2.16.1_1: 147 files, 1.9MB
+==> Installing openjdk dependency: libxfixes
+==> Pouring libxfixes-6.0.2_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/libxfixes/6.0.2_1: 14 files, 137.8KB
+==> Installing openjdk dependency: libxi
+Warning: libxi: No available formula with the name "libslax". Did you mean libnsl?
+'conflicts_with "libslax"' should be removed from libxi.rb.
+Please report this issue to the Harmonybrew/homebrew-core tap
+==> Pouring libxi-1.8.3_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/libxi/1.8.3_1: 87 files, 733.4KB
+==> Installing openjdk dependency: libxrandr
+==> Pouring libxrandr-1.5.5_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/libxrandr/1.5.5_1: 28 files, 232.6KB
+==> Installing openjdk dependency: libice
+==> Pouring libice-1.1.2_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/libice/1.1.2_1: 18 files, 388.3KB
+==> Installing openjdk dependency: libsm
+==> Pouring libsm-1.2.6_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/libsm/1.2.6_1: 15 files, 192.6KB
+==> Installing openjdk dependency: libxt
+==> Pouring libxt-1.3.1_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/libxt/1.3.1_1: 312 files, 1.9MB
+==> Installing openjdk dependency: libxtst
+==> Pouring libxtst-1.2.5_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/libxtst/1.2.5_1: 24 files, 170.7KB
+==> Installing openjdk dependency: krb5
+==> Pouring krb5-1.22.2_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/krb5/1.22.2_1: 165 files, 4.1MB
+==> Installing openjdk dependency: cups
+==> Pouring cups-2.4.19_1.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/cups/2.4.19_1: 122 files, 9.9MB
+==> Installing openjdk dependency: zip
+==> Pouring zip-3.0_2.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/zip/3.0_2: 15 files, 796KB
+==> Installing openjdk
+==> Pouring openjdk-26.0.2.1_2.arm64_ohos.bottle.tar.gz
+🍺  /storage/Users/currentUser/.harmonybrew/Cellar/openjdk/26.0.2.1_2: 541 files, 396.2MB

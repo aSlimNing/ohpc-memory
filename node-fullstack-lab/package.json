@@ -1,0 +1,15 @@
+{
+  "name": "node-fullstack-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "End-to-end fullstack validation on official HarmonyOS Node.js (DevNode-OH v24.13.0)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nanoid": "^6.0.1"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "esbuild-sww",
+  "version": "0.25.12-sww.1",
+  "description": "esbuild API shim backed by @swc/wasm for platforms without native esbuild binaries (OHOS).",
+  "main": "main.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "@swc/wasm": "*"
+  }
+}

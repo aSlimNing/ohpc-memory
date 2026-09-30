@@ -1,0 +1,22 @@
+node_modules/
+dist-webpack/
+*.tgz
+esbuild-probe/
+__pycache__/
+.pylibs/
+
+# Vendored Go module cache: reconstructible with `go mod download`, not first-party source.
+go-esbuild-lab/gopath/
+go-esbuild-lab/gocache/
+go-esbuild-lab/*.tar.gz
+
+# Official Node runtime drop and lab temp state: hundreds of MB of binaries and logs.
+node-ohos/
+node-fullstack-lab/tmp/
+
+# Local signing material: never publish private keys or CSRs.
+signing-lab/*.p12
+signing-lab/*.csr
+
+# Device-capture screenshots: evidence lives in the project report, not the repo.
+dev-top8-lab/device-app-*.jpeg
