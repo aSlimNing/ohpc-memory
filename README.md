@@ -28,13 +28,40 @@
 
 ## 给 agent 用
 
-知识库可以直接当 agent 的知识源，不必让它从零试错。
+知识库可以直接当 agent 的知识源，不必让它从零试错。仓库里那份 Skill（`skill/harmonyos-pc-development/`）就是干这个的，用的是通用的 `SKILL.md` 格式，Qoder / Codex / Claude Code 都认，装法各家不同：
 
-- **Qoder**：把 `skill/harmonyos-pc-development/` 拷到 `~/.qoder/skills/harmonyos-pc-development/`，目录名要与 SKILL.md 里的 `name` 一致，注册表重载后生效。
-- **别的 agent 产品或别的机器**：让 agent 读 `skill/harmonyos-pc-development/SKILL.md`，或把 `dev-top8-lab/harmonyos-knowledge/` 当作知识源挂上。
-- **只是 clone 下来**：不用装，SKILL.md 里所有路径都按仓库根解析。
+| Agent | 怎么接 |
+|---|---|
+| **Qoder** | `qodercli skill install git@github.com:aSlimNing/ohpc-memory.git --path skill/harmonyos-pc-development`（本机实测） |
+| **Codex** | 把 `skill/harmonyos-pc-development/` 放进 `~/.agents/skills/` |
+| **Claude Code** | 放进 `~/.claude/skills/` |
+| **WorkBuddy** | 技能页「添加技能 → 上传技能」，导入这个含 `SKILL.md` 的目录 |
+| **只认 `AGENTS.md` 的（Cursor 等）** | 仓库根的 `AGENTS.md` 已写好，clone 下来就能用 |
+| **其它** | 直接让 agent 读 `skill/harmonyos-pc-development/SKILL.md` |
 
-`skill/` 下那份是源，装到别处的那份是拷贝，改完要重新拷。SKILL.md 只负责指路、不放事实——事实只写在 `harmonyos-knowledge/` 里，否则两边迟早不一致。
+除 Qoder 那条外，其余按各家 2026-09-30 的文档写，没在这台机器上装过。仓库是私有的，走 SSH（`~/.ssh` 已配好）或带凭据的 HTTPS。
+
+### 不用装：直接跟 agent 说这一句
+
+把仓库放进 agent 的工作目录（clone 或直接打开），开场说：
+
+```text
+这是鸿蒙 PC 开发的现场记录。以后凡涉及鸿蒙/HarmonyOS/OpenHarmony/ArkTS/ArkUI/HAP/DevEco/HDC 的问题，
+先读 skill/harmonyos-pc-development/SKILL.md，再按它指的路读 dev-top8-lab/harmonyos-knowledge/INDEX.md；
+"能不能做"查 dev-top8-lab/HARMONYOS-PC-ISSUES.md。不要凭记忆回答。
+```
+
+（英文 agent 换成：*This repo is a field record of HarmonyOS PC development. For any HarmonyOS / ArkTS / HAP / DevEco question, read `skill/harmonyos-pc-development/SKILL.md` first, then the knowledge base it points to; check `dev-top8-lab/HARMONYOS-PC-ISSUES.md` for whether something is possible. Do not answer from memory.*）
+
+注意 Skill 只是指路牌，路径按**仓库根**解析：只导入 skill 目录、手边没有知识库，它会报"找不到知识库"并要仓库——这是故意的，免得它凭记忆编。
+
+改源的时候别重装——链接一次，改动即时生效：
+
+```bash
+qodercli skill link <本仓库路径>/skill/harmonyos-pc-development
+```
+
+`skill/` 下那份是源，装出去的那份是副本。SKILL.md 只负责指路、不放事实——事实只写在 `harmonyos-knowledge/` 里，否则两边迟早不一致。
 
 ## 快照与时效
 

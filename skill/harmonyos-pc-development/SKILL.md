@@ -24,13 +24,26 @@ Every path in this Skill is relative to the root of a workspace that contains th
 
 ## Reuse across agents
 
-This Skill is a Markdown router and holds no facts of its own.
+This Skill is a Markdown router and holds no facts of its own. It uses the shared `SKILL.md` convention, so one directory serves several agent products — the install step differs per product:
 
-- **Qoder, same user profile:** install it as a user-level Skill by copying `skill/harmonyos-pc-development/` to `~/.qoder/skills/harmonyos-pc-development/`. The frontmatter `name` must match the directory name. It becomes available to sessions after the Skill registry reloads.
-- **Other agent products or other machines:** point the agent at `skill/harmonyos-pc-development/SKILL.md`, or attach/index `dev-top8-lab/harmonyos-knowledge/` as a knowledge source. No further setup is needed: every path here resolves from the repository root.
-- **Cloned workspace:** nothing to install — the knowledge base is already at the paths named below.
+| Agent | How to hook it up |
+|---|---|
+| **Qoder** | `qodercli skill install git@github.com:aSlimNing/ohpc-memory.git --path skill/harmonyos-pc-development` (verified on this machine; the repository is private, so use SSH or credentialed HTTPS) |
+| **Codex** | place `skill/harmonyos-pc-development/` under `~/.agents/skills/` |
+| **Claude Code** | place it under `~/.claude/skills/` |
+| **WorkBuddy** | Skills page → 添加技能 → 上传技能, importing this directory |
+| **AGENTS.md-based agents** | the repository root ships an `AGENTS.md`; a clone needs nothing else |
+| **Anything else** | point the agent at `skill/harmonyos-pc-development/SKILL.md`, or attach/index `dev-top8-lab/harmonyos-knowledge/` as a knowledge source |
 
-The repository copy is the source; an installed copy is a duplicate that drifts. After editing the router, re-copy it. Never copy facts out of the knowledge base into this router, and never assume two agents share conversational memory.
+Only the Qoder row was exercised here; the others are taken from each vendor's documentation as of 2026-09-30 and were not installed on this machine. A cloned workspace needs nothing installed: every path here resolves from the repository root.
+
+**Editing the router:** do not reinstall on every edit — link the source directory once and changes take effect immediately:
+
+```bash
+qodercli skill link <repository>/skill/harmonyos-pc-development
+```
+
+The repository copy is the source; an installed copy is a duplicate that drifts. Never copy facts out of the knowledge base into this router, and never assume two agents share conversational memory.
 
 ## Reference map
 

@@ -36,28 +36,34 @@ for (const name of files) {
 if (!files.includes('INDEX.md')) errors.push('INDEX.md is missing');
 if (!files.includes('maintenance.md')) errors.push('maintenance.md is missing');
 
-// The Skill router has gone stale before (it kept naming a file that had been split up), so every
-// path it names is checked here. Paths must be repository-relative so that a clone can resolve them.
+// The agent routers have gone stale before (the Skill kept naming a file that had been split up),
+// so every path they name is checked here. Paths must be repository-relative so a clone resolves
+// them. Only path-like references are checked: a bare file name in prose ("the shared SKILL.md
+// convention") names no location.
 const repoRoot = path.resolve(root, '..', '..');
 const skillDir = path.join(repoRoot, 'skill', 'harmonyos-pc-development');
 const referencesDir = path.join(skillDir, 'references');
+const agentsFile = path.join(repoRoot, 'AGENTS.md');
+const routerFiles = [];
 let routerChecked = false;
 
 if (fs.existsSync(path.join(skillDir, 'SKILL.md'))) {
   routerChecked = true;
-  const skillFiles = [
-    path.join(skillDir, 'SKILL.md'),
-    ...(fs.existsSync(referencesDir) ? fs.readdirSync(referencesDir).map((name) => path.join(referencesDir, name)) : []),
-  ];
-  for (const skillFile of skillFiles) {
-    const label = path.relative(repoRoot, skillFile);
-    const content = fs.readFileSync(skillFile, 'utf8');
-    for (const [, target] of content.matchAll(/`([^`\s]+\.(?:md|cjs|json|sh))`/g)) {
-      if (/^(?:\/|~)/.test(target)) {
-        errors.push(`${label}: router path must be repository-relative, got ${target}`);
-      } else if (!fs.existsSync(path.resolve(repoRoot, target))) {
-        errors.push(`${label}: router points at a missing file ${target}`);
-      }
+  routerFiles.push(path.join(skillDir, 'SKILL.md'));
+  if (fs.existsSync(referencesDir)) {
+    routerFiles.push(...fs.readdirSync(referencesDir).map((name) => path.join(referencesDir, name)));
+  }
+}
+if (fs.existsSync(agentsFile)) routerFiles.push(agentsFile);
+
+for (const routerFile of routerFiles) {
+  const label = path.relative(repoRoot, routerFile);
+  const content = fs.readFileSync(routerFile, 'utf8');
+  for (const [, target] of content.matchAll(/`([^`\s]*\/[^`\s]*\.(?:md|cjs|json|sh))`/g)) {
+    if (/^(?:\/|~)/.test(target)) {
+      errors.push(`${label}: router path must be repository-relative, got ${target}`);
+    } else if (!fs.existsSync(path.resolve(repoRoot, target))) {
+      errors.push(`${label}: router points at a missing file ${target}`);
     }
   }
 }
@@ -67,6 +73,6 @@ if (errors.length) {
   process.exitCode = 1;
 } else {
   process.stdout.write(
-    `Knowledge validation passed (${files.length} Markdown files${routerChecked ? ', Skill router checked' : ''}).\n`,
+    `Knowledge validation passed (${files.length} Markdown files${routerChecked ? ', agent routers checked' : ''}).\n`,
   );
 }
