@@ -36,9 +36,37 @@ for (const name of files) {
 if (!files.includes('INDEX.md')) errors.push('INDEX.md is missing');
 if (!files.includes('maintenance.md')) errors.push('maintenance.md is missing');
 
+// The Skill router has gone stale before (it kept naming a file that had been split up), so every
+// path it names is checked here. Paths must be repository-relative so that a clone can resolve them.
+const repoRoot = path.resolve(root, '..', '..');
+const skillDir = path.join(repoRoot, 'skill', 'harmonyos-pc-development');
+const referencesDir = path.join(skillDir, 'references');
+let routerChecked = false;
+
+if (fs.existsSync(path.join(skillDir, 'SKILL.md'))) {
+  routerChecked = true;
+  const skillFiles = [
+    path.join(skillDir, 'SKILL.md'),
+    ...(fs.existsSync(referencesDir) ? fs.readdirSync(referencesDir).map((name) => path.join(referencesDir, name)) : []),
+  ];
+  for (const skillFile of skillFiles) {
+    const label = path.relative(repoRoot, skillFile);
+    const content = fs.readFileSync(skillFile, 'utf8');
+    for (const [, target] of content.matchAll(/`([^`\s]+\.(?:md|cjs|json|sh))`/g)) {
+      if (/^(?:\/|~)/.test(target)) {
+        errors.push(`${label}: router path must be repository-relative, got ${target}`);
+      } else if (!fs.existsSync(path.resolve(repoRoot, target))) {
+        errors.push(`${label}: router points at a missing file ${target}`);
+      }
+    }
+  }
+}
+
 if (errors.length) {
   process.stderr.write(`Knowledge validation failed (${errors.length}):\n- ${errors.join('\n- ')}\n`);
   process.exitCode = 1;
 } else {
-  process.stdout.write(`Knowledge validation passed (${files.length} Markdown files).\n`);
+  process.stdout.write(
+    `Knowledge validation passed (${files.length} Markdown files${routerChecked ? ', Skill router checked' : ''}).\n`,
+  );
 }

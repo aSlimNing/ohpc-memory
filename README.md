@@ -26,6 +26,16 @@
 - 想复核就自己跑一遍：条目里带原始命令和证据路径
 - 改完知识库，跑 `node dev-top8-lab/harmonyos-knowledge/validate.cjs`
 
+## 给 agent 用
+
+知识库可以直接当 agent 的知识源，不必让它从零试错。
+
+- **Qoder**：把 `skill/harmonyos-pc-development/` 拷到 `~/.qoder/skills/harmonyos-pc-development/`，目录名要与 SKILL.md 里的 `name` 一致，注册表重载后生效。
+- **别的 agent 产品或别的机器**：让 agent 读 `skill/harmonyos-pc-development/SKILL.md`，或把 `dev-top8-lab/harmonyos-knowledge/` 当作知识源挂上。
+- **只是 clone 下来**：不用装，SKILL.md 里所有路径都按仓库根解析。
+
+`skill/` 下那份是源，装到别处的那份是拷贝，改完要重新拷。SKILL.md 只负责指路、不放事实——事实只写在 `harmonyos-knowledge/` 里，否则两边迟早不一致。
+
 ## 快照与时效
 
 内容对应 **HarmonyOS PC / HongMeng Kernel 1.13.0、aarch64 / musl（无 glibc）、OHOS SDK 26.0.0.18（API 26）**，实测于 2026-09-28 ~ 09-30。
@@ -41,3 +51,5 @@
 A field record of running mainstream development workflows on a real **HarmonyOS PC** (HongMeng Kernel 1.13.0, aarch64/musl, OHOS SDK API 26), measured 2026-09-28 → 09-30: a benchmark, a platform/ecosystem map, a pit ledger, and a scenario-organized knowledge base.
 
 The knowledge base (`dev-top8-lab/harmonyos-knowledge/`) holds what *works* — a preferred path, a failure criterion and a time-bounded fallback per item. The ledger (`dev-top8-lab/HARMONYOS-PC-ISSUES.md`) holds what *doesn't*, and is the only place a negative statement is allowed to live, never without a status and a release condition.
+
+The agent router ships with the repo at `skill/harmonyos-pc-development/`: install it as a user-level Skill, or point any agent at its `SKILL.md`. It routes only; the facts stay in the knowledge base.

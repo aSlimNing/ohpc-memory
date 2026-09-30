@@ -8,7 +8,7 @@ reviewed_on: 2026-09-30
 
 ## Source-of-truth rule
 
-This knowledge directory currently exists as uncommitted files in the project worktree. Git history and cross-clone availability begin only after an authorized commit/push; do not claim otherwise.
+These files are committed in the `ohpc-memory` repository (`main` holds the published snapshot, `master` the development worktree), so cross-clone availability is real. Verify which revision you are reading before quoting a fact from it.
 
 1. Edit this Git-workspace directory first. Do not maintain separate fact copies in the Skill or user memory.
 2. Keep the user-level Skill short: it routes Agents to this knowledge base and enforces the process; its `references/` files are locator notes, not alternate facts.

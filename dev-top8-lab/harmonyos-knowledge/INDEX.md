@@ -8,7 +8,7 @@ reviewed_on: 2026-09-30
 
 **Purpose:** canonical, evidence-labelled field knowledge for HarmonyOS PC development. The Qoder user-level Skill is only a router; update this directory as the source of truth.
 
-**Version-control state:** this directory is currently uncommitted in the surrounding Git repository. It becomes durable Git history only after an explicitly authorized commit; do not assume it is synchronized to another clone or agent until then.
+**Version-control state:** these files are committed in the `ohpc-memory` repository — `main` holds the published snapshot, `master` the development worktree — so another clone or agent can read them. Confirm which revision you are reading before quoting a fact.
 
 **Snapshot environment:** HarmonyOS PC / HongMeng Kernel 1.13.0, aarch64/musl, OHOS SDK API 26. Historical tests ran 2026-09-28 through 2026-09-29. These values describe the tested machine and must be re-probed on other devices or after updates.
 
