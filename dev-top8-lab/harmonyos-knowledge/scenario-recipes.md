@@ -14,7 +14,7 @@ sources:
 
 These are outcomes reported from this user's 2026-09-28/29 test environment, not universal guarantees. Before copying versions, flags, or timings, inspect the current project and verify locally. Primary references: [`../BENCH.md`](../BENCH.md), [`../POSTRUN-PLAN.md`](../POSTRUN-PLAN.md), and [`../PPT-OUTLINE-harmonyos-coding.md`](../PPT-OUTLINE-harmonyos-coding.md); raw outputs include [`../reverify-final.log`](../reverify-final.log) and experiment-specific logs/reports. Evidence levels differ by item, as noted below.
 
-**Important replay caveat:** [`../reverify-final.log`](../reverify-final.log) reports `BUILD FAILED` for the HAP rebuild and then successfully signs/verifies an already existing 102,448-byte HAP. It does not prove that the replay built that artifact. The later benchmark reports an earlier successful 29-second HAP build and successful wireless install/launch/UI clicks; screenshots ([foreground](../device-app-foreground.jpeg), [clicked](../device-app-clicked.jpeg)) corroborate visible UI state, but no raw HDC command transcript or fresh checked-in ArkTS project source was found in the audit. Treat the HAP build/deploy facts as **report-only, with screenshot corroboration for UI state**, not as independently replayed by that script.
+**Important replay caveat:** [`../reverify-final.log`](../reverify-final.log) reports `BUILD FAILED` for the HAP rebuild and then successfully signs/verifies an already existing 102,448-byte HAP. It does not prove that the replay built that artifact. The later benchmark reports an earlier successful 29-second HAP build and successful wireless install/launch/UI clicks; screenshots (`../device-app-foreground.jpeg`, `../device-app-clicked.jpeg`; local only, withheld from the repository because they are device captures) corroborate visible UI state, but no raw HDC command transcript or fresh checked-in ArkTS project source was found in the audit. Treat the HAP build/deploy facts as **report-only, with screenshot corroboration for UI state**, not as independently replayed by that script.
 
 ## How the fallbacks are written
 
@@ -25,7 +25,7 @@ Earlier revisions of this file stated the same limits as unconditional claims ("
 ## Evidence map
 
 - **Reproduced by the 2026-09-29 host replay:** Java JAR execution; Vite build/preview HTTP responses (not browser behavior); webpack build plus jsdom render assertion; static preview; basic Node API; Flask response; C/C++ smoke test; Redis/SQLite read-write; Git activity. See [`../reverify-final.log`](../reverify-final.log).
-- **Separate direct artifacts:** Java test report at [`../../java-probe/order-service/target/surefire-reports/com.bench.order.OrderServiceTest.txt`](../../java-probe/order-service/target/surefire-reports/com.bench.order.OrderServiceTest.txt); Node persistence evidence in `../../node-fullstack-lab/`; broader frontend notes in `../../frontend-toolchain-lab/RESULTS.md`.
+- **Separate direct artifacts:** Java test report at `../../java-probe/order-service/target/surefire-reports/com.bench.order.OrderServiceTest.txt` (local only, build output; regenerate by running the Maven test); Node persistence evidence in `../../node-fullstack-lab/`; broader frontend notes in `../../frontend-toolchain-lab/RESULTS.md`.
 - Claims labeled **Source reports** below are report-only unless their bullet gives an independent artifact or replay. Do not promote them to reproduced without rerunning the exact step.
 
 ## ArkTS / HAP — native app build and device loop

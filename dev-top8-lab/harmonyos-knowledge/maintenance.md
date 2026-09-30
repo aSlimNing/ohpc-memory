@@ -14,6 +14,7 @@ These files are committed in the `ohpc-memory` repository (`main` holds the publ
 2. Keep the user-level Skill short: it routes Agents to this knowledge base and enforces the process; its `references/` files are locator notes, not alternate facts.
 3. Never erase a result because a newer result differs. Add the new evidence, date it, and mark the older statement superseded or environment-specific.
 4. Do not commit signing passwords, tokens, private keys, profiles, personal screenshots, or credential-recovery instructions. Link to approved credential workflows without exposing secret material.
+5. Reference evidence that cannot ship — device captures, build output, anything excluded from the repository — as a code span marked `local only`, never as a Markdown link. The validator checks every local link, so a link to such a file passes in the original worktree and fails in a fresh clone.
 
 ## Evidence states
 
