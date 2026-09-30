@@ -1,6 +1,6 @@
 #!/bin/bash
 # Top8 全场景复验脚本：每项都真跑，输出 PASS/FAIL
-# 签名口令不再内嵌：运行时需先 `export KEYSTORE_PWD=...`（原先把口令硬编码在 sign-app 调用里）
+# 签名凭据：运行时先 `export KEYSTORE_PWD=...`（任何口令、私钥、证书都不写进仓库）
 # 本脚本已被判定为不可用/不安全，勿当作权威验证器，见 HARMONYOS-PC-ISSUES.md PC-12
 Q=/storage/Users/currentUser/Documents/qoder
 H=/data/storage/el2/base/files/home/Documents/Qoder/2026-09-24/67d34c20/HelloHos

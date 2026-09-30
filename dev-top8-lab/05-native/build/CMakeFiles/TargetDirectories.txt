@@ -1,3 +1,0 @@
-/storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/hello.dir
-/storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/edit_cache.dir
-/storage/Users/currentUser/Documents/qoder/dev-top8-lab/05-native/build/CMakeFiles/rebuild_cache.dir

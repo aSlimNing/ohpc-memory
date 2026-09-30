@@ -52,12 +52,12 @@
 - ⇒ 沙箱内无法自闭环，必须走外部设备
 
 **B. 无线调试接入后：通道打通、调试能力全可用（2026-09-29 实测）**
-- `hdc list targets` → **`192.168.43.1:5555`**；目标设备：**HUAWEI Mate 80 Pro Max（SGT-AL10）**，API 26 / HongMeng 1.13（本机 wlan0=192.168.43.4，同一无线网）
+- `hdc list targets` → 无线调试目标可达；目标设备：**HUAWEI Mate 80 Pro Max（SGT-AL10）**，API 26 / HongMeng 1.13（同一无线网；具体地址不入库）
 - 已实测可用的调试能力：`hdc shell`（`param get`/`uname` ✅）、**hilog 实时日志** ✅、`bm dump -a`（枚举 352 行已装应用）✅、**file send/recv 往返** ✅（25 B/20 ms；快照 123,495 B 拉回 61 ms @2 MB/s）、**`snapshot_display` 远程截屏** ✅（1320×2848，产物 `device-snapshot-0929.jpeg`）
 - **剩余堵点（当时）**：安装我方 HAP 报 `code:9568257 error: fail to verify pkcs7 file`——SDK 自签的 OpenHarmony 证书链（`OpenHarmony.p12` + `UnsgnedDebugProfileTemplate`）不被商用鸿蒙设备信任
 
 **C. 闭环达成：本机编译→华为身份签名→装机→启动（2026-09-29 实测）✅**
-- 签名身份来源：Studio 自动签名留下的华为签发材料 `/storage/Users/currentUser/Documents/ohos/config/default_MyApplication*.{p12,cer,p7b}`（华为链 + 按 bundleName 绑定的 debug profile），口令可离线解出（`~/.qoder/bin/ohos-signing-pwd.mjs`）
+- 签名身份来源：Studio 自动签名生成的华为签发材料（华为链 + 按 bundleName 绑定的 debug profile）；材料与其口令一律沿用本机既有身份，不入库、仓库内不记路径
 - 签名要点（三档错误码实测）：`-profileSigned 1` **与** `-signCode 1` 都不能漏；bundleName 必须等于 profile 绑定的那个（当前 `com.example.myapplication`），否则 `9568329 verify signature failed`；漏 `-signCode 1` → `9568393 verify code signature failed`
 - 实测链路：本机 hvigor 编译 → `hap-sign-tool` 签发 → `hdc install -r` 装机成功 → `aa start -b com.example.myapplication -a EntryAbility` → **`start ability successfully.`**，进程存活（`ps` 见 `com.example.myapplication`），远程截屏确认界面在跑（文案"自建 HAP 已运行｜由本机 hvigor + hap-sign-tool 构建并签名"）；产物 `device-app-foreground.jpeg` / `Download/自建App真机运行-0929.jpeg`
 - **交互闭环也已验证**：`uitest dumpLayout` 定位按钮（"点我 +1"，bounds `[264,1722][1056,1857]`）→ `uitest uiInput click 660 1790` 点击 3 次 → 界面计数**实测 0 → 1 → 3**，截图见 `device-app-clicked.jpeg` / `Download/自建App真机点击验证-0929.jpeg` ⇒ 不只是"能装能起"，**控件可响应、状态可更新**

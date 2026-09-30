@@ -363,17 +363,10 @@ reviewed_on: 2026-09-30
   本次会话 2026-09-30 01:43:03Z（启动即开始）至 06:20:40Z 共 **1115 次**，约每 15s 一次，且是唯一 failureCode；同期 `openapi.qoder.sh` 请求 200/204 正常，与网络、账号无关
 - 影响: 环境注册（`POST /environments/bridge` 需要 device_id）永远发不出去，phase 停在非 ready
 - 绕法: 无（现有逃逸口够不到，见备注）
-- 解除条件: App 给 `vUt()` 补一个 `ohos` 分支（按 `linux` 处理即可，`XDG_CONFIG_HOME` 在鸿蒙上已有值），或让 GUI 主进程环境带上 `QODER_HOME`
+- 解除条件: App 给设备 ID 解析补一个 `ohos` 分支（按 `linux` 处理即可，`XDG_CONFIG_HOME` 在鸿蒙上已有值），或让 GUI 主进程环境带上 `QODER_HOME`
 - 复测触发: 宿主 App 版本变化（本次 0.4.1，bundle 构建于 2026-09-24）；日志里该错误码不再增长即改判
 - 证据: 2026-09-30 读取装机 bundle 复核代码 + 同日日志计数
-- 代码原文（`/data/storage/el1/bundle/electron/resources/resfile/resources/app.asar`，偏移约 34434402）：
-  ```js
-  function vUt(t={}){ const e=t.env??process.env, r=t.platform??process.platform, a=e.QODER_HOME?.trim();
-    if (a) return n(a,"cache","id");                       // 逃逸口：优先于平台校验
-    if (r==="darwin") s=n(i,"Library","Application Support","Qoder","qodercli");
-    else if (r==="win32") {…} else if (r==="linux") {…}
-    else throw new Error(`Unsupported platform for Qoder device ID: ${r}`);   // ohos 落到这里
-  ```
+- 代码复核（2026-09-30，读取装机 bundle 的 `app.asar`）：解析设备 ID 的函数只按 `darwin` / `win32` / `linux` 三种平台分支取值，鸿蒙上 `process.platform` 不是这三者，于是走到最后一行直接抛 `Unsupported platform for Qoder device ID`；该异常被上层 `DeviceIdentity` 的 `.catch()` 吞掉，转成 `REMOTE_CONTROL_DEVICE_ID_UNAVAILABLE`，所以外部只看得到错误码。函数名与逐字摘录不入库，按宿主版本重读 bundle 即可自行复核
 - 备注: 与 PC-27 同族，都是 App 侧缺 `ohos` 平台分支。`QODER_HOME` 是唯一现成逃逸口，但够不到：GUI 主进程 env 里没有它（`/proc/<pid>/environ` 实测只有 `HOME`/`XDG_CONFIG_HOME`/`XDG_CACHE_HOME`），全盘无任何设备 ID 缓存文件，而 `aa start` 只提供 `--ps/--pi/--pb`（want 参数）与 `-e <entity>`，**没有传环境变量的选项**，无法从外部注入
 
 ### PC-28 — `.codesign` 段未按 4096 对齐的 ELF 一律 EACCES

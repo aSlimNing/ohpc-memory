@@ -39,7 +39,7 @@
 
 **④ 部署与签名策略**：编译产物上真机要过**华为签名门禁**（零售机只认华为签发证书+按 bundleName 绑定的 profile）。
 三档错误码实测：`9568257 fail to verify pkcs7`（用了 OHOS 测试证书）/ `9568329 verify signature failed`（bundleName 与 profile 不符）/ `9568393 verify code signature failed`（漏 `-signCode 1`）。
-可行身份：**Studio 自动签名材料可离线复用**（口令可由 `~/.qoder/bin/ohos-signing-pwd.mjs` 解出）。
+可行身份：**Studio 自动签名材料可复用**（材料与口令都取自本机既有身份，不入库、仓库内不记路径）。
 
 ### 1.3 三方生态现状（分档）
 
@@ -85,7 +85,7 @@
 ### 3.1 鸿蒙 ArkTS / HAP —— ✅ 全链路闭环（含真机交互）
 
 - **实况**：改码增量编译 **29 s**（28 tasks/11 executed）→ `sign-app success` → `hap verify successed!`（产物 102,448 B）→ `hdc install` 装机 → `aa start` → UI 计数 **0→3**（uitest 点击）→ 截图取证
-- **关键配方**：设备端直驱 hvigor（不依赖 Studio）+ 华为签名身份复用（studio 材料 + 离线解密口令）+ `-profileSigned 1 -signCode 1`
+- **关键配方**：设备端直驱 hvigor（不依赖 Studio）+ 复用 Studio 的华为签名身份 + `-profileSigned 1 -signCode 1`；凭据由本机既有身份提供，仓库内不含任何口令或材料
 - **问题**：① profile 绑定 bundleName，换包名需 Studio 重签；② `aa start` 需设备解锁；③ 本机 SDK 缺 `phone.json` 需手补；④ 断点调试尚无 CLI 客户端
 
 ### 3.2 C/C++ —— ✅ 编译运行；⚠️ 交互调试受限

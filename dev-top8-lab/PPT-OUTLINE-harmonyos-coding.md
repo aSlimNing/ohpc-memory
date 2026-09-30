@@ -71,7 +71,7 @@
 | ARK-5 | 锁屏阻断启动 | `10106102 screen is locked`（开发者模式不自动解锁） | 用例前置解锁 |
 | ARK-6 | SDK 只读 + 缺件 | 需镜像+软链；缺 `phone.json` 致 syscap 交集为空 | 手补 + 逐项软链 |
 | ARK-7 | 断点调试无 CLI 客户端 | `aa attach` 在，缺连它的调试器 | 待定案（借 Studio 或自建） |
-**配方**：无线 hdc + Studio 签名身份离线复用（口令可解）+ `-profileSigned 1 -signCode 1`
+**配方**：无线 hdc + 复用 Studio 的华为签名身份（凭据不入库）+ `-profileSigned 1 -signCode 1`
 
 ---
 
@@ -180,7 +180,7 @@
 ## Slide 15 · 已解锁的关键配方（五条，可直接抄）
 1. **执行门禁自救**：shdr → 本地重编译；`.codesign` → `strip + binary-sign-tool -selfSign 1`
 2. **Vite 解锁**：社区 Go 1.24.5 → 本地编 esbuild → `ESBUILD_BINARY_PATH`（+ rollup→wasm-node）
-3. **真机闭环**：无线 `hdc` + 复用 Studio 签名身份（离线解口令）→ 装机 → 启动 → **点击**
+3. **真机闭环**：无线 `hdc` + 复用 Studio 的华为签名身份（凭据来自本机既有身份）→ 装机 → 启动 → **点击**
 4. **观测剖析**：`hilog` + `hidumper` + `hitrace` + `hiprofiler` 插件
 5. **质量门禁**：jsdom 真执行产物 + vitest/eslint/tsc + 量化阈值自检
 
