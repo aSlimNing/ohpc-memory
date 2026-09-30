@@ -39,7 +39,7 @@
 | **只认 `AGENTS.md` 的（Cursor 等）** | 仓库根的 `AGENTS.md` 已写好，clone 下来就能用 |
 | **其它** | 直接让 agent 读 `skill/harmonyos-pc-development/SKILL.md` |
 
-除 Qoder 那条外，其余按各家 2026-09-30 的文档写，没在这台机器上装过。仓库是私有的，走 SSH（`~/.ssh` 已配好）或带凭据的 HTTPS。
+除 Qoder 那条外，其余按各家 2026-09-30 的文档写，没在这台机器上装过。仓库是私有的，走 SSH（`~/.ssh` 已配好）或带凭据的 HTTPS。（本机网络 2026-09-30 实测 22 端口被对端关闭、HTTPS 正常；SSH 得走 443：把地址换成 `ssh://git@ssh.github.com:443/aSlimNing/ohpc-memory.git`，clone 和 push 都可用。）
 
 ### 不用装：直接跟 agent 说这一句
 
